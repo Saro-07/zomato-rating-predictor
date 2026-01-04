@@ -1,66 +1,93 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import plotly.express as px
 import numpy as np
 
-# 1. Load the saved model and scaler
-model = joblib.load('best_model.pkl')
-scaler = joblib.load('scaler.pkl')
+# Set page to wide mode for a better "Analytical" feel
+st.set_page_config(page_title="Zomato Global Analytics", layout="wide")
 
-# 2. Dashboard Title and Description
-st.title("🍴 Global Restaurant Rating Predictor")
-st.write("""
-This dashboard uses a **Stacked Ensemble Machine Learning Model** to predict a restaurant's aggregate rating 
-based on global Zomato data.
-""")
+# 1. Load Model and Scaler (Make sure these files are uploaded to HF)
+@st.cache_resource
+def load_assets():
+    model = joblib.load('best_model.pkl')
+    scaler = joblib.load('scaler.pkl')
+    # Optional: Load a small sample of your CSV for the charts
+    df = pd.read_csv('cleaned_sample.csv') 
+    return model, scaler, df
 
-st.sidebar.header("Enter Restaurant Details")
+try:
+    model, scaler, df = load_assets()
+except:
+    st.error("Please upload 'best_model.pkl', 'scaler.pkl', and 'cleaned_sample.csv' to your Space.")
+    st.stop()
 
-# 3. User Inputs in the Sidebar
-def user_input_features():
-    avg_cost = st.sidebar.number_input("Average Cost for Two (USD)", min_value=1.0, max_value=1000.0, value=25.0)
-    price_range = st.sidebar.slider("Price Range (1 = Cheap, 4 = Luxury)", 1, 4, 2)
-    votes = st.sidebar.number_input("Number of Votes (Popularity)", min_value=0, max_value=20000, value=100)
-    
-    table_booking = st.sidebar.selectbox("Has Table Booking?", ["Yes", "No"])
-    online_delivery = st.sidebar.selectbox("Has Online Delivery?", ["Yes", "No"])
-    cuisine_count = st.sidebar.slider("Number of Cuisines Offered", 1, 8, 3)
+# Dashboard Title
+st.title("📊 Global Restaurant Market: Prediction & Analytics")
+st.markdown("---")
 
-    # Convert Yes/No to 1/0
-    data = {
-        'Average_Cost_USD': avg_cost,
-        'Price range': price_range,
-        'Votes': votes,
-        'Has Table booking': 1 if table_booking == "Yes" else 0,
-        'Has Online delivery': 1 if online_delivery == "Yes" else 0,
-        'Cuisine_Count': cuisine_count
-    }
-    return pd.DataFrame(data, index=[0])
+# Create Tabs
+tab1, tab2 = st.tabs(["🎯 Rating Predictor", "📈 Market Insights"])
 
-input_df = user_input_features()
+# --- TAB 1: PREDICTION DASHBOARD ---
+with tab1:
+    st.header("Predict Restaurant Success")
+    col1, col2 = st.columns([1, 1])
 
-# 4. Display the inputs
-st.subheader("Restaurant Profile")
-st.write(input_df)
+    with col1:
+        st.subheader("Configure Restaurant Profile")
+        cost = st.slider("Average Cost for Two (USD)", 1, 500, 25)
+        votes = st.number_input("Expected Popularity (Votes)", 0, 10000, 150)
+        price_range = st.selectbox("Price Tier (1: Budget, 4: Luxury)", [1, 2, 3, 4])
+        cuisines = st.slider("Cuisine Variety", 1, 10, 3)
+        online = st.radio("Online Delivery", ["Yes", "No"])
+        booking = st.radio("Table Booking", ["Yes", "No"])
 
-# 5. Prediction Logic
-if st.button("Predict Rating"):
-    # Scale the input just like we did in training
-    scaled_input = scaler.transform(input_df)
-    
-    # Get prediction
-    prediction = model.predict(scaled_input)
-    
-    # Display Result
-    st.success(f"### Predicted Aggregate Rating: {prediction[0]:.2f} / 5.0")
-    
-    # Add a humanized tip
-    if prediction[0] >= 4.0:
-        st.balloons()
-        st.write("🌟 **Analysis:** This restaurant is likely to be a top-performer in the global market!")
-    elif prediction[0] >= 3.0:
-        st.write("👍 **Analysis:** This is an average performing restaurant with steady customer satisfaction.")
-    else:
-        st.write("⚠️ **Analysis:** This configuration might lead to lower customer satisfaction. Consider adding services like Online Delivery.")
+    with col2:
+        st.subheader("Prediction Result")
+        # Process input
+        input_data = pd.DataFrame({
+            'Average_Cost_USD': [cost],
+            'Price range': [price_range],
+            'Votes': [votes],
+            'Has Table booking': [1 if booking == "Yes" else 0],
+            'Has Online delivery': [1 if online == "Yes" else 0],
+            'Cuisine_Count': [cuisines]
+        })
+        
+        scaled_input = scaler.transform(input_data)
+        prediction = model.predict(scaled_input)[0]
+        
+        # Display Gauge or Big Number
+        st.metric(label="Predicted Aggregate Rating", value=f"{prediction:.2f} / 5.0")
+        
+        if prediction >= 4.0:
+            st.success("High Success Probability: This configuration matches top-tier global standards.")
+        elif prediction >= 3.0:
+            st.warning("Average Performance: Competitive but requires better engagement.")
+        else:
+            st.error("Low Performance: Consider adding delivery services or improving value-for-money.")
 
-st.info("Note: This model was trained on global standardized data using USD conversion.")
+# --- TAB 2: ANALYTICAL DASHBOARD ---
+with tab2:
+    st.header("Global Market Trends")
+    row1_col1, row1_col2 = st.columns(2)
+
+    with row1_col1:
+        st.subheader("Cost vs. Rating")
+        fig1 = px.scatter(df, x="Average_Cost_USD", y="Aggregate rating", 
+                         color="Price range", trendline="ols",
+                         title="Does Higher Price mean Higher Rating?")
+        st.plotly_chart(fig1, use_container_width=True)
+
+    with row1_col2:
+        st.subheader("Popularity Impact")
+        fig2 = px.density_heatmap(df, x="Votes", y="Aggregate rating", 
+                                 title="Density of Ratings by Vote Count",
+                                 nbinsx=30, nbinsy=30, color_continuous_scale='Viridis')
+        st.plotly_chart(fig2, use_container_width=True)
+
+    st.subheader("Service Impact Analysis")
+    fig3 = px.box(df, x="Has Online delivery", y="Aggregate rating", color="Has Table booking",
+                 title="Impact of Digital Services on Customer Satisfaction")
+    st.plotly_chart(fig3, use_container_width=True)
