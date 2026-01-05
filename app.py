@@ -3,44 +3,81 @@ import pandas as pd
 import joblib
 import plotly.express as px
 
-# Set up the page
+# --- SETUP ---
 st.set_page_config(page_title="Zomato Analytics", layout="wide")
 
-# Load the saved assets
-model = joblib.load('best_model.pkl')
-scaler = joblib.load('scaler.pkl')
-data = pd.read_csv('cleaned_sample.csv')
+@st.cache_resource
+def load_data():
+    model = joblib.load('best_model.pkl')
+    scaler = joblib.load('scaler.pkl')
+    # Load a small sample of your cleaned data for the charts
+    df = pd.read_csv('cleaned_sample.csv') 
+    return model, scaler, df
 
-st.title("🍴 Global Restaurant: Prediction & Analytics Dashboard")
+model, scaler, df = load_data()
 
-# Create Two Sections
-col_predict, col_analyze = st.columns([1, 2])
+# --- SIDEBAR: INPUT PANEL ---
+st.sidebar.header("📍 Restaurant Configuration")
+country = st.sidebar.selectbox("Select Country Market", ["India", "USA", "UAE", "UK", "Others"])
+local_price = st.sidebar.number_input(f"Cost in Local Currency", value=1000)
 
-with col_predict:
-    st.header("🎯 Prediction Tool")
-    # User inputs
-    cost = st.number_input("Cost (USD)", value=25)
-    votes = st.number_input("Votes", value=100)
-    delivery = st.selectbox("Online Delivery", [1, 0])
-    booking = st.selectbox("Table Booking", [1, 0])
-    cuisines = st.slider("Cuisine Count", 1, 10, 3)
-    price_range = st.slider("Price Range", 1, 4, 2)
+# Working Function: The Global Scaler
+rates = {"India": 0.012, "USA": 1.0, "UAE": 0.27, "UK": 1.27, "Others": 1.0}
+usd_cost = local_price * rates[country]
 
-    if st.button("Predict Rating"):
-        # Format the input exactly like training
-        features = [[cost, price_range, votes, booking, delivery, cuisines]]
-        scaled_features = scaler.transform(features)
-        prediction = model.predict(scaled_features)[0]
-        st.metric("Predicted Rating", f"{prediction:.2f} / 5.0")
+st.sidebar.markdown(f"**Standardized Cost:** ${usd_cost:.2f} USD")
 
-with col_analyze:
-    st.header("📈 Market Analytics")
-    # Analytical Chart 1: Cost vs Rating
-    fig1 = px.scatter(data, x="Average_Cost_USD", y="Aggregate rating", 
-                     color="Price range", title="Relationship: Cost vs Rating")
-    st.plotly_chart(fig1)
+votes = st.sidebar.slider("Current Votes (Popularity)", 0, 5000, 150)
+delivery = st.sidebar.checkbox("Offers Online Delivery")
+booking = st.sidebar.checkbox("Offers Table Booking")
+cuisines = st.sidebar.slider("Cuisine Count", 1, 8, 2)
+price_range = st.sidebar.select_slider("Price Tier", options=[1, 2, 3, 4])
 
-    # Analytical Chart 2: Importance of Votes
-    fig2 = px.histogram(data, x="Votes", y="Aggregate rating", 
-                       histfunc="avg", title="How Popularity (Votes) Impacts Ratings")
-    st.plotly_chart(fig2)
+# --- MAIN CONTENT ---
+st.title("🍴 Global Restaurant Strategy Dashboard")
+st.markdown("---")
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.header("🎯 Prediction Engine")
+    
+    # Prepare Input
+    input_data = pd.DataFrame({
+        'Average_Cost_USD': [usd_cost],
+        'Price range': [price_range],
+        'Votes': [votes],
+        'Has Table booking': [1 if booking else 0],
+        'Has Online delivery': [1 if delivery else 0],
+        'Cuisine_Count': [cuisines]
+    })
+    
+    # Predict
+    scaled_input = scaler.transform(input_data)
+    prediction = model.predict(scaled_input)[0]
+    
+    # Display Result
+    st.metric(label="Predicted Aggregate Rating", value=f"{prediction:.2f} / 5.0")
+    
+    # Working Function: Improvement Advisor
+    st.subheader("💡 Strategic Recommendations")
+    if not delivery:
+        st.info("🚀 **Growth Tip:** Our models show that adding **Online Delivery** could significantly boost your visibility and rating.")
+    if votes < 500:
+        st.warning("📈 **Marketing Tip:** Your vote count is low. Encourage customer reviews to increase 'Social Proof'.")
+    if prediction >= 4.0:
+        st.balloons()
+        st.success("Your restaurant is currently in the 'Top Performer' bracket!")
+
+with col2:
+    st.header("📊 Market Context")
+    # Working Function: Comparative Analytics
+    fig = px.scatter(df, x="Votes", y="Aggregate rating", color="Price range",
+                     title="Where do you stand? (Your Inputs vs. Market)")
+    # Add a gold star for the user's prediction
+    fig.add_scatter(x=[votes], y=[prediction], mode='markers', 
+                    marker=dict(color='Gold', size=15, symbol='star'), name='Your Prediction')
+    st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")
+st.caption("Powered by Stacked Ensemble Learning | Standardized Global Dataset")
