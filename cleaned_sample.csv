@@ -1,0 +1,1001 @@
+Restaurant Name,City,Locality,Average_Cost_USD,Currency,Price range,Votes,Has Table booking,Has Online delivery,Cuisine_Count,Aggregate rating
+Le Petit Souffle,Makati City,"Century City Mall, Poblacion, Makati City",104.5,Botswana Pula(P),3,314,1,0,3,4.8
+Izakaya Kikufuji,Makati City,"Little Tokyo, Legaspi Village, Makati City",114.0,Botswana Pula(P),3,591,1,0,1,4.5
+Heat - Edsa Shangri-La,Mandaluyong City,"Edsa Shangri-La, Ortigas, Mandaluyong City",380.0,Botswana Pula(P),4,270,1,0,4,4.4
+Ooma,Mandaluyong City,"SM Megamall, Ortigas, Mandaluyong City",142.5,Botswana Pula(P),4,365,0,0,2,4.9
+Sambo Kojin,Mandaluyong City,"SM Megamall, Ortigas, Mandaluyong City",142.5,Botswana Pula(P),4,229,1,0,2,4.8
+Din Tai Fung,Mandaluyong City,"SM Megamall, Ortigas, Mandaluyong City",95.0,Botswana Pula(P),3,336,0,0,1,4.4
+Buffet 101,Pasay City,"SM by the Bay, Mall of Asia Complex, Pasay City",190.0,Botswana Pula(P),4,520,1,0,2,4.0
+Vikings,Pasay City,"SM by the Bay, Mall of Asia Complex, Pasay City",190.0,Botswana Pula(P),4,677,1,0,4,4.2
+Spiral - Sofitel Philippine Plaza Manila,Pasay City,"Sofitel Philippine Plaza Manila, Pasay City",570.0,Botswana Pula(P),4,621,1,0,3,4.9
+Locavore,Pasig City,Kapitolyo,104.5,Botswana Pula(P),3,532,1,0,1,4.8
+Silantro Fil-Mex,Pasig City,Kapitolyo,76.0,Botswana Pula(P),3,1070,0,0,2,4.9
+Mad Mark's Creamery & Good Eats,Pasig City,Kapitolyo,85.5,Botswana Pula(P),3,488,1,0,3,4.2
+Silantro Fil-Mex,Quezon City,"UP Town Center, Diliman, Quezon City",76.0,Botswana Pula(P),3,294,0,0,2,4.8
+Guevarra's,San Juan City,Addition Hills,95.0,Botswana Pula(P),3,458,1,0,1,4.2
+Sodam Korean Restaurant,San Juan City,Little Baguio,66.5,Botswana Pula(P),3,223,0,0,1,4.3
+Cafe Arabelle,Santa Rosa,"Nuvali, Don Jose, Santa Rosa",76.0,Botswana Pula(P),3,29,0,0,4,3.6
+Nonna's Pasta & Pizzeria,Santa Rosa,"Solenad 3, Don Jose, Santa Rosa",80.75,Botswana Pula(P),3,72,0,0,2,4.0
+Balay Dako,Tagaytay City,Tagaytay City,114.0,Botswana Pula(P),3,211,1,0,1,4.5
+Hobing Korean Dessert Cafe,Taguig City,"BGC Stopover Pavillion, Bonifacio Global City",57.0,Botswana Pula(P),2,118,0,0,3,4.5
+Wildflour Cafe + Bakery,Taguig City,Bonifacio Global City,142.5,Botswana Pula(P),4,392,1,0,4,4.4
+NIU by Vikings,Taguig City,"SM Aura Premier, Bonifacio Global City, Taguig City",285.0,Botswana Pula(P),4,535,1,0,4,4.7
+The Food Hall by Todd English,Taguig City,"SM Aura Premier, Bonifacio Global City, Taguig City",171.0,Botswana Pula(P),4,618,1,0,4,4.5
+Chez Michou,Brasí_lia,Asa Norte,13.75,Brazilian Real(R$),2,6,0,0,2,3.0
+Cafí© Daniel Briand,Brasí_lia,Asa Norte,7.5,Brazilian Real(R$),1,9,0,0,1,3.8
+Casa do Biscoito Mineiro,Brasí_lia,Asa Norte,11.25,Brazilian Real(R$),2,11,0,0,1,3.7
+Maori,Brasí_lia,Asa Norte,15.0,Brazilian Real(R$),3,11,0,0,1,3.8
+Pizza íæ Bessa,Brasí_lia,Asa Sul,12.5,Brazilian Real(R$),2,11,0,0,1,3.2
+Sushi Loko,Brasí_lia,Asa Sul,20.0,Brazilian Real(R$),3,10,0,0,1,3.1
+Beirute,Brasí_lia,Asa Sul,22.5,Brazilian Real(R$),3,8,0,0,1,3.7
+New Koto,Brasí_lia,Asa Sul,50.0,Brazilian Real(R$),4,5,0,0,1,3.7
+Villa Tevere,Brasí_lia,Asa Sul,37.5,Brazilian Real(R$),4,12,0,0,1,4.1
+Rovereto,Brasí_lia,íguas Claras,25.0,Brazilian Real(R$),4,9,0,0,1,3.1
+Buena Carne,Brasí_lia,íguas Claras,15.0,Brazilian Real(R$),3,9,0,0,2,3.6
+Taco Pep,Brasí_lia,íguas Claras,25.0,Brazilian Real(R$),4,29,0,0,2,4.3
+Coco Bambu,Brasí_lia,"Brasí_lia Shopping, Asa Norte",57.5,Brazilian Real(R$),4,17,0,0,1,4.2
+Taypíç,Brasí_lia,Lago Sul,25.0,Brazilian Real(R$),4,5,0,0,2,3.6
+Outback Steakhouse,Brasí_lia,"ParkShopping, Guaríç I",37.5,Brazilian Real(R$),4,10,0,0,2,4.0
+Manzuíç,Brasí_lia,"Pontí£o Lago Sul, Lago Sul",60.0,Brazilian Real(R$),4,6,0,0,1,3.2
+Coco Bambu,Brasí_lia,Setor De Clubes Esportivos Sul,57.5,Brazilian Real(R$),4,30,0,0,1,4.9
+Gero,Brasí_lia,"Shopping Iguatemi, Lago Norte",87.5,Brazilian Real(R$),4,8,0,0,1,3.3
+Brazilian American Burgers,Brasí_lia,Sudoeste,12.5,Brazilian Real(R$),2,9,0,0,2,3.6
+Pesqueiro Eco Gourmet,Rio de Janeiro,Barra da Tijuca,35.0,Brazilian Real(R$),4,7,0,0,3,4.0
+Confeitaria Colombo,Rio de Janeiro,Centro,25.0,Brazilian Real(R$),4,29,0,0,2,4.8
+Bibi,Rio de Janeiro,Copacabana,15.0,Brazilian Real(R$),3,24,0,0,2,4.7
+Cervantes,Rio de Janeiro,Copacabana,22.5,Brazilian Real(R$),3,29,0,0,3,4.5
+Amir,Rio de Janeiro,Copacabana,42.5,Brazilian Real(R$),4,11,0,0,1,4.2
+TT Burger,Rio de Janeiro,"Galeria River, Copacabana",15.0,Brazilian Real(R$),3,19,0,0,1,4.8
+Braseiro da Gíçvea,Rio de Janeiro,Gíçvea,25.0,Brazilian Real(R$),4,40,0,0,2,4.9
+Balada Mix,Rio de Janeiro,Ipanema,22.5,Brazilian Real(R$),3,21,0,0,4,4.6
+Garota de Ipanema,Rio de Janeiro,Ipanema,30.0,Brazilian Real(R$),4,49,0,0,2,4.9
+Zazíç BistríÇ Tropical,Rio de Janeiro,Ipanema,42.5,Brazilian Real(R$),4,21,0,0,1,4.6
+Filí© de Ouro,Rio de Janeiro,Lagoa,22.5,Brazilian Real(R$),3,14,0,0,1,4.3
+D.O.C Ristorante,Rio de Janeiro,"Le Monde, Barra da Tijuca",37.5,Brazilian Real(R$),4,5,0,0,1,4.0
+Sushi Leblon,Rio de Janeiro,Leblon,62.5,Brazilian Real(R$),4,25,0,0,1,4.6
+Talho Capixaba,Rio de Janeiro,Leblon,30.0,Brazilian Real(R$),4,13,0,0,3,4.4
+Leme Light,Rio de Janeiro,Leme,10.0,Brazilian Real(R$),2,7,0,0,1,4.2
+Shirley,Rio de Janeiro,Leme,62.5,Brazilian Real(R$),4,8,0,0,2,4.2
+Aprazí_vel,Rio de Janeiro,Santa Teresa,75.0,Brazilian Real(R$),4,44,0,0,1,4.7
+Aconchego Carioca,Rio de Janeiro,Tijuca,21.25,Brazilian Real(R$),3,24,0,0,2,4.6
+Garota de Ipanema,Rio de Janeiro,Urca,20.0,Brazilian Real(R$),3,10,0,0,2,4.3
+Cantina Famiglia Mancini,Sí£o Paulo,"Bela Vista, Centro",62.5,Brazilian Real(R$),4,49,0,0,2,4.5
+Templo da Carne - Marcos Bassi,Sí£o Paulo,"Bela Vista, Centro",62.5,Brazilian Real(R$),4,17,0,0,2,4.4
+Gopala Hari,Sí£o Paulo,Consolaí_í£o,17.5,Brazilian Real(R$),3,5,0,0,1,3.1
+Jiquitaia,Sí£o Paulo,Consolaí_í£o,25.0,Brazilian Real(R$),4,15,0,0,1,4.1
+Skye - Hotel Unique,Sí£o Paulo,"Hotel Unique, Jardim Paulista",75.0,Brazilian Real(R$),4,59,0,0,2,4.8
+Les 3 Brasseurs,Sí£o Paulo,Itaim Bibi,30.0,Brazilian Real(R$),4,30,0,0,3,4.6
+Red Steak & Burger,Sí£o Paulo,Itaim Bibi,18.75,Brazilian Real(R$),3,5,0,0,2,3.9
+Paris 6 Classique,Sí£o Paulo,Jardim Paulista,50.0,Brazilian Real(R$),4,73,0,0,1,3.4
+Kawa Sushi,Sí£o Paulo,Jardim Paulista,30.0,Brazilian Real(R$),4,9,0,0,2,3.5
+A Figueira Rubaiyat,Sí£o Paulo,Jardim Paulista,75.0,Brazilian Real(R$),4,39,0,0,3,4.3
+Kinoshita,Sí£o Paulo,Moema,57.5,Brazilian Real(R$),4,12,0,0,1,3.9
+Meats,Sí£o Paulo,Pinheiros,30.0,Brazilian Real(R$),4,68,0,0,2,4.3
+Paribar,Sí£o Paulo,Repí_blica,37.5,Brazilian Real(R$),4,46,0,0,2,4.3
+Terraí_o Itíçlia,Sí£o Paulo,Repí_blica,100.0,Brazilian Real(R$),4,37,0,0,1,4.4
+Esquina Mocotí_,Sí£o Paulo,Vila Maria,25.0,Brazilian Real(R$),4,22,0,0,2,4.4
+Veloso,Sí£o Paulo,Vila Mariana,17.5,Brazilian Real(R$),3,58,0,0,3,4.6
+Sainte Marie Gastronomia,Sí£o Paulo,Vila SíÇnia,30.0,Brazilian Real(R$),4,11,0,0,2,4.1
+Austin's BBQ and Oyster Bar,Albany,Albany,25.0,Dollar($),2,35,0,0,3,3.3
+BJ's Country Buffet,Albany,Albany,10.0,Dollar($),1,25,0,0,2,3.3
+Cookie Shoppe,Albany,Albany,0.0,Dollar($),1,34,0,0,1,3.4
+El Vaquero Mexican Restaurant,Albany,Albany,0.0,Dollar($),1,45,0,0,1,3.4
+Elements Coffee Co - Northwest,Albany,Albany,10.0,Dollar($),1,26,0,0,2,3.4
+Pearly's Famous Country Cookng,Albany,Albany,0.0,Dollar($),1,36,0,0,1,3.4
+Chick-fil-A,Albany,Albany,10.0,Dollar($),1,67,0,0,1,3.5
+Guang Zhou Chinese Restaurant,Albany,Albany,10.0,Dollar($),1,141,0,0,3,3.9
+Harvest Moon,Albany,Albany,25.0,Dollar($),2,147,0,0,3,3.7
+Henry Campbell's Steakhouse,Albany,Albany,70.0,Dollar($),4,51,0,0,3,3.5
+Hong Kong Cafe,Albany,Albany,25.0,Dollar($),2,88,0,0,3,3.6
+House of China Restaurant II,Albany,Albany,10.0,Dollar($),1,153,0,0,1,3.8
+Jimmie's Hot Dogs,Albany,Albany,10.0,Dollar($),1,160,0,0,1,3.9
+Locos Grill & Pub,Albany,Albany,25.0,Dollar($),2,57,0,0,3,3.5
+Longhorn Steakhouse,Albany,Albany,25.0,Dollar($),2,58,0,0,2,3.5
+Mikata Japanese Steakhouse,Albany,Albany,40.0,Dollar($),3,115,0,0,3,3.6
+Shogun Japanese Steak House,Albany,Albany,40.0,Dollar($),3,51,0,0,3,3.5
+The Catch Seafood Room & Oyster Bar,Albany,Albany,40.0,Dollar($),3,250,0,0,3,3.8
+Villa Gargano,Albany,Albany,10.0,Dollar($),1,117,0,0,2,3.7
+3 Squares Diner,Albany,Sylvester,10.0,Dollar($),1,20,0,0,3,3.4
+Whitebull Hotel,Armidale,Armidale,20.0,Dollar($),2,25,0,0,2,3.5
+Last Resort Grill,Athens,Athens,40.0,Dollar($),3,1821,0,0,3,4.5
+Mama's Boy Restaurant,Athens,Athens,10.0,Dollar($),1,849,0,0,1,4.5
+Sr. Sol 1,Athens,Athens,10.0,Dollar($),1,917,0,0,1,4.6
+Choo Choo Eastside,Athens,Athens,10.0,Dollar($),1,439,0,0,2,3.9
+The Grill,Athens,Athens,10.0,Dollar($),1,289,0,0,3,3.7
+Big City Bread Cafe,Athens,Athens,10.0,Dollar($),1,558,0,0,2,4.3
+Clocked,Athens,Athens,10.0,Dollar($),1,613,0,0,3,4.2
+DePalma's Italian Cafe - Downtown,Athens,Athens,25.0,Dollar($),2,353,0,0,3,4.0
+DePalma's Italian Cafe - East Side,Athens,Athens,25.0,Dollar($),2,387,0,0,3,4.1
+Five & Ten,Athens,Athens,40.0,Dollar($),3,755,0,0,1,4.3
+Grit,Athens,Athens,10.0,Dollar($),1,800,0,0,3,4.2
+Ike & Jane,Athens,Athens,10.0,Dollar($),1,350,0,0,1,4.1
+La Dolce Vita Ristorante,Athens,Athens,40.0,Dollar($),3,464,0,0,1,4.1
+Shokitini,Athens,Athens,25.0,Dollar($),2,550,0,0,3,4.2
+Taqueria Del Sol,Athens,Athens,10.0,Dollar($),1,543,0,0,2,4.1
+The National,Athens,Athens,40.0,Dollar($),3,465,0,0,2,4.1
+The Royal Peasant,Athens,Athens,10.0,Dollar($),1,546,0,0,1,4.4
+Transmetropolitan,Athens,Athens,10.0,Dollar($),1,1098,0,0,3,4.4
+Trappeze Pub,Athens,Athens,25.0,Dollar($),2,579,0,0,2,4.2
+Viva! Argentine Cuisine,Athens,Athens,10.0,Dollar($),1,374,0,0,3,4.1
+Miyabi Kyoto Japanese Steak House,Augusta,Augusta,40.0,Dollar($),3,717,0,0,2,4.6
+Rae's Coastal Cafe,Augusta,Augusta,40.0,Dollar($),3,548,0,0,3,4.9
+The Bee's Knees,Augusta,Augusta,25.0,Dollar($),2,631,0,0,3,4.5
+Boll Weevil Cafe,Augusta,Augusta,10.0,Dollar($),1,372,0,0,3,3.9
+Farmhaus Burger,Augusta,Augusta,25.0,Dollar($),2,201,0,0,2,3.9
+Manuel's Bread Cafe,Augusta,Augusta,40.0,Dollar($),3,332,0,0,2,3.8
+Sconyers Bar B Que,Augusta,Augusta,25.0,Dollar($),2,304,0,0,1,3.5
+Frog Hollow Tavern,Augusta,Augusta,40.0,Dollar($),3,368,0,0,1,4.3
+Giuseppe's Pizza & Italian Specialities,Augusta,Augusta,25.0,Dollar($),2,430,0,0,3,4.1
+Mellow Mushroom,Augusta,Augusta,25.0,Dollar($),2,433,0,0,3,4.4
+Nacho Mamas Burritos,Augusta,Augusta,10.0,Dollar($),1,380,0,0,1,4.0
+Rhinehart's Oyster Bar,Augusta,Augusta,25.0,Dollar($),2,456,0,0,3,4.0
+Takosushi,Augusta,Augusta,40.0,Dollar($),3,647,0,0,3,4.2
+The Chop House,Augusta,Augusta,40.0,Dollar($),3,360,0,0,1,4.0
+The Taj of India,Augusta,Augusta,25.0,Dollar($),2,227,0,0,1,4.0
+Augsburg Haus,Augusta,Evans,25.0,Dollar($),2,290,0,0,1,3.9
+Pho Bac,Augusta,Evans,10.0,Dollar($),1,270,0,0,1,4.1
+Rhinehart's Oyster Bar,Augusta,Evans,25.0,Dollar($),2,326,0,0,2,4.0
+Thai Kitchen,Augusta,Evans,35.0,Dollar($),3,317,0,0,1,4.3
+El Kiosco Mexican Restaurant,Augusta,Grovetown,10.0,Dollar($),1,300,0,0,1,4.2
+Taste of Balingup,Balingup,Balingup,20.0,Dollar($),2,21,0,0,1,3.2
+Bridge Road Brewers,Beechworth,Beechworth,20.0,Dollar($),2,237,0,0,2,4.6
+Bardenay,Boise,Boise,25.0,Dollar($),2,879,0,0,2,4.5
+Flatbread Neapolitan Pizzeria,Boise,Boise,25.0,Dollar($),2,615,0,0,2,4.6
+Goldy's Breakfast Bistro,Boise,Boise,25.0,Dollar($),2,879,0,0,2,4.5
+Chandlers Steakhouse,Boise,Boise,70.0,Dollar($),4,379,0,0,3,3.9
+Bar Gernika Basque Pub & Eatery,Boise,Boise,10.0,Dollar($),1,303,0,0,2,4.3
+Barbacoa Restaurant,Boise,Boise,70.0,Dollar($),4,538,0,0,2,4.1
+Big Jud's,Boise,Boise,10.0,Dollar($),1,334,0,0,3,4.2
+Bittercreek Ale House,Boise,Boise,25.0,Dollar($),2,555,0,0,2,4.3
+Boise Fry Company,Boise,Boise,10.0,Dollar($),1,823,0,0,2,4.4
+Flying Pie Pizzaria,Boise,Boise,25.0,Dollar($),2,550,0,0,1,4.1
+Fork,Boise,Boise,25.0,Dollar($),2,650,0,0,2,4.4
+Guido's Original New York Style Pizza,Boise,Boise,10.0,Dollar($),1,410,0,0,1,4.3
+Los Beto's,Boise,Boise,10.0,Dollar($),1,660,0,0,1,4.4
+Lucianos Italian Restaurant,Boise,Boise,25.0,Dollar($),2,360,0,0,3,4.4
+Mai Thai Restaurant,Boise,Boise,40.0,Dollar($),3,340,0,0,2,4.0
+Shige Japanese Cuisine,Boise,Boise,25.0,Dollar($),2,393,0,0,3,4.1
+The Egg Factory,Boise,Boise,10.0,Dollar($),1,422,0,0,1,4.3
+Tucanos,Boise,Boise,40.0,Dollar($),3,435,0,0,1,4.0
+Texas Roadhouse,Boise,Meridian,25.0,Dollar($),2,369,0,0,3,4.0
+Brick 29,Boise,Nampa,40.0,Dollar($),3,487,0,0,1,4.4
+Winifreds,Cedar Rapids/Iowa City,Cedar Rapids,40.0,Dollar($),3,98,0,0,3,3.7
+Biaggi's Ristorante Italiano,Cedar Rapids/Iowa City,Cedar Rapids,40.0,Dollar($),3,365,0,0,2,4.1
+El Super Burrito,Cedar Rapids/Iowa City,Cedar Rapids,10.0,Dollar($),1,190,0,0,1,4.1
+Granite City Food & Brewery,Cedar Rapids/Iowa City,Cedar Rapids,40.0,Dollar($),3,429,0,0,3,4.1
+Irish Democrat,Cedar Rapids/Iowa City,Cedar Rapids,25.0,Dollar($),2,430,0,0,3,4.4
+Taste of India,Cedar Rapids/Iowa City,Cedar Rapids,25.0,Dollar($),2,186,0,0,1,4.2
+Thai Moon Restaurant,Cedar Rapids/Iowa City,Cedar Rapids,10.0,Dollar($),1,220,0,0,3,4.2
+Ting's Red Lantern,Cedar Rapids/Iowa City,Cedar Rapids,10.0,Dollar($),1,347,0,0,1,4.2
+Monica's,Cedar Rapids/Iowa City,Coralville,25.0,Dollar($),2,161,0,0,3,3.8
+Exotic India,Cedar Rapids/Iowa City,Coralville,25.0,Dollar($),2,160,0,0,1,4.1
+Shorts Burger and Shine,Cedar Rapids/Iowa City,Iowa City,10.0,Dollar($),1,820,0,0,1,4.9
+The Hamburg Inn No. 2 Inc.,Cedar Rapids/Iowa City,Iowa City,10.0,Dollar($),1,488,0,0,3,4.5
+Bluebird Diner,Cedar Rapids/Iowa City,Iowa City,25.0,Dollar($),2,253,0,0,2,3.6
+Graze,Cedar Rapids/Iowa City,Iowa City,40.0,Dollar($),3,220,0,0,3,3.8
+A & A Pagliai's Pizza,Cedar Rapids/Iowa City,Iowa City,25.0,Dollar($),2,485,0,0,1,4.3
+Atlas World Grill,Cedar Rapids/Iowa City,Iowa City,40.0,Dollar($),3,428,0,0,1,4.3
+BlackStone,Cedar Rapids/Iowa City,Iowa City,25.0,Dollar($),2,294,0,0,2,4.1
+Devotay,Cedar Rapids/Iowa City,Iowa City,40.0,Dollar($),3,380,0,0,3,4.0
+Jimmy Jack's Rib Shack,Cedar Rapids/Iowa City,Iowa City,25.0,Dollar($),2,259,0,0,1,4.2
+Zoeys Pizzeria,Cedar Rapids/Iowa City,Marion,25.0,Dollar($),2,433,0,0,2,4.7
+Tokyo Sushi,Chatham-Kent,Chatham-Kent,25.0,Dollar($),2,176,0,0,2,3.7
+Berry Patch Restaurant,Clatskanie,Clatskanie,10.0,Dollar($),1,96,0,0,3,4.3
+Sakura Sushi & Grill,Cochrane,Cochrane,25.0,Dollar($),2,6,0,0,2,3.1
+Uptown Vietnam cuisine,Columbus,Columbus,10.0,Dollar($),1,33,0,0,2,3.3
+Cafe Le Rue @ The Landings,Columbus,Columbus,25.0,Dollar($),2,489,0,0,3,4.6
+Mark's City Grille,Columbus,Columbus,25.0,Dollar($),2,345,0,0,1,4.5
+B Merrell's,Columbus,Columbus,25.0,Dollar($),2,149,0,0,3,3.8
+Cannon Brewpub,Columbus,Columbus,25.0,Dollar($),2,330,0,0,2,3.9
+Fuji Japanese Steak House,Columbus,Columbus,40.0,Dollar($),3,247,0,0,2,3.9
+Ruth Ann's Family Restaurant,Columbus,Columbus,10.0,Dollar($),1,123,0,0,3,3.7
+Samurai Japanese Cuisine & Sushi Bar,Columbus,Columbus,40.0,Dollar($),3,109,0,0,3,3.6
+Wasabi Sushi and Thai,Columbus,Columbus,40.0,Dollar($),3,134,0,0,3,3.7
+Buckhead Bar and Grill,Columbus,Columbus,40.0,Dollar($),3,722,0,0,3,4.2
+Burt's Butcher Shoppe and Eatery,Columbus,Columbus,25.0,Dollar($),2,213,0,0,1,4.3
+Chef Lee's Peking Restaurant,Columbus,Columbus,25.0,Dollar($),2,335,0,0,1,4.0
+Country's Barbecue,Columbus,Columbus,25.0,Dollar($),2,353,0,0,2,4.0
+Deorio's,Columbus,Columbus,0.0,Dollar($),1,170,0,0,2,4.0
+Mellow Mushroom,Columbus,Columbus,25.0,Dollar($),2,192,0,0,1,4.1
+Meritage,Columbus,Columbus,40.0,Dollar($),3,302,0,0,2,4.1
+Mongo The Mongolian Fire Pit,Columbus,Columbus,10.0,Dollar($),1,355,0,0,2,4.2
+The Black Cow,Columbus,Columbus,25.0,Dollar($),2,287,0,0,1,4.3
+Wood Stone,Columbus,Columbus,40.0,Dollar($),3,264,0,0,3,4.0
+Hunter's Pub,Columbus,Hamilton,40.0,Dollar($),3,235,0,0,3,4.4
+Consort Restaurant,Consort,Consort,25.0,Dollar($),2,6,0,0,2,3.0
+Thatcher's Barbeque and Grill,Dalton,Calhoun,25.0,Dollar($),2,38,0,0,3,3.7
+Christian and Jake's Bistro,Dalton,Calhoun,10.0,Dollar($),1,122,0,0,2,4.4
+Dub's High on the Hog,Dalton,Calhoun,25.0,Dollar($),2,207,0,0,1,4.4
+Sierra's Mexican Restaurant,Dalton,Chatsworth,10.0,Dollar($),1,66,0,0,2,3.9
+Oakwood Cafe,Dalton,Dalton,10.0,Dollar($),1,249,0,0,3,4.9
+Chili's Grill & Bar,Dalton,Dalton,25.0,Dollar($),2,63,0,0,1,3.8
+Fuji Japanese Steakhouse,Dalton,Dalton,40.0,Dollar($),3,145,0,0,2,3.8
+Las Palmas,Dalton,Dalton,10.0,Dollar($),1,83,0,0,1,3.8
+Tony's Italian Restaurant & Pizza,Dalton,Dalton,25.0,Dollar($),2,116,0,0,1,3.7
+Filling Station,Dalton,Dalton,10.0,Dollar($),1,122,0,0,2,4.1
+Five Guys Burgers and Fries,Dalton,Dalton,10.0,Dollar($),1,142,0,0,1,4.1
+Los Pablos,Dalton,Dalton,10.0,Dollar($),1,114,0,0,1,4.1
+Kobe Hibachi & Sushi,Dalton,Fort Oglethorpe,25.0,Dollar($),2,214,0,0,3,4.6
+Soho Hibachi,Dalton,Fort Oglethorpe,10.0,Dollar($),1,116,0,0,1,4.3
+Thai Garden,Dalton,Fort Oglethorpe,25.0,Dollar($),2,111,0,0,1,4.2
+Southern Bliss Bakery,Dalton,LaFayette,10.0,Dollar($),1,25,0,0,2,3.7
+Bailey's Bar-B-Que,Dalton,Ringgold,10.0,Dollar($),1,128,0,0,1,4.1
+Farm To Fork,Dalton,Ringgold,10.0,Dollar($),1,244,0,0,3,4.3
+Home Plate Grill,Dalton,Ringgold,10.0,Dollar($),1,112,0,0,3,4.2
+Pie Slingers Pizzeria,Dalton,Rock Spring,10.0,Dollar($),1,144,0,0,2,4.1
+Olive Tree Cafe,Davenport,Bettendorf,25.0,Dollar($),2,166,0,0,3,4.6
+"Red Ginger Sushi, Grill & Bar",Davenport,Bettendorf,40.0,Dollar($),3,208,0,0,2,4.5
+Crust Stone Oven Pizza,Davenport,Bettendorf,25.0,Dollar($),2,136,0,0,2,3.9
+Jimmy's Pancake House,Davenport,Bettendorf,10.0,Dollar($),1,85,0,0,3,4.0
+Trattoria Tiramisu,Davenport,Bettendorf,25.0,Dollar($),2,117,0,0,1,4.1
+Prairie Grille at SteepleGate Inn,Davenport,Davenport,25.0,Dollar($),2,53,0,0,2,3.4
+Tantra Asian Bistro,Davenport,Davenport,25.0,Dollar($),2,474,0,0,1,4.9
+Chick-fil-A,Davenport,Davenport,10.0,Dollar($),1,125,0,0,1,3.9
+Duck City Bistro,Davenport,Davenport,70.0,Dollar($),4,201,0,0,2,3.7
+Azteca,Davenport,Davenport,0.0,Dollar($),1,167,0,0,1,4.3
+China Cafe,Davenport,Davenport,25.0,Dollar($),2,112,0,0,1,4.0
+Exotic Thai Restaurant,Davenport,Davenport,25.0,Dollar($),2,256,0,0,1,4.1
+Front Street Brewery,Davenport,Davenport,10.0,Dollar($),1,123,0,0,1,4.3
+Granite City Food & Brewery,Davenport,Davenport,25.0,Dollar($),2,199,0,0,1,4.0
+Los Agaves,Davenport,Davenport,25.0,Dollar($),2,157,0,0,1,4.1
+Machine Shed Restaurant,Davenport,Davenport,25.0,Dollar($),2,100,0,0,1,4.1
+Osaka,Davenport,Davenport,40.0,Dollar($),3,141,0,0,2,4.2
+Texas Roadhouse,Davenport,Davenport,25.0,Dollar($),2,197,0,0,3,4.2
+Hickory Park,Des Moines,Ames,25.0,Dollar($),2,1025,0,0,3,4.5
+The Cafe,Des Moines,Ames,25.0,Dollar($),2,570,0,0,2,4.9
+Flying Mango,Des Moines,Beaverdale,40.0,Dollar($),3,674,0,0,3,4.5
+Cool Basil,Des Moines,Clive,25.0,Dollar($),2,496,0,0,3,4.1
+HuHot Mongolian Grill,Des Moines,Clive,25.0,Dollar($),2,411,0,0,2,4.0
+Malo,Des Moines,Downtown,25.0,Dollar($),2,113,0,0,2,3.2
+Centro,Des Moines,Downtown,40.0,Dollar($),3,1109,0,0,2,4.5
+Fong's Pizza,Des Moines,Downtown,25.0,Dollar($),2,728,0,0,2,4.6
+A Dong Restaurant,Des Moines,Downtown,10.0,Dollar($),1,659,0,0,4,4.4
+Court Avenue Brewing Company,Des Moines,Downtown,40.0,Dollar($),3,370,0,0,3,4.2
+Django,Des Moines,Downtown,40.0,Dollar($),3,532,0,0,1,4.3
+Miyabi 9,Des Moines,East Village,25.0,Dollar($),2,860,0,0,2,4.8
+Zombie Burger + Drink Lab,Des Moines,East Village,10.0,Dollar($),1,943,0,0,3,4.2
+Tursi's Latin King,Des Moines,Fairground,70.0,Dollar($),4,476,0,0,2,4.1
+Tsing Tsao South,Des Moines,Greater South Side,10.0,Dollar($),1,218,0,0,1,4.1
+Bandit Burrito,Des Moines,Johnston,10.0,Dollar($),1,214,0,0,3,4.0
+Jethro's BBQ,Des Moines,Kingman Place Historic District,25.0,Dollar($),2,699,0,0,2,4.3
+The Machine Shed Restaurant,Des Moines,Urbandale,25.0,Dollar($),2,308,0,0,2,3.8
+Mi Patria,Des Moines,West Des Moines,25.0,Dollar($),2,157,0,0,1,4.0
+Waterfront Seafood Market,Des Moines,West Des Moines,40.0,Dollar($),3,530,0,0,2,4.2
+The Giggling Goat,Dicky Beach,Dicky Beach,7.0,Dollar($),1,29,0,0,3,3.6
+Burnt Toast Cafe,Dubuque,Dubuque,10.0,Dollar($),1,33,0,0,1,3.4
+Catfish Charlie's,Dubuque,Dubuque,25.0,Dollar($),2,40,0,0,1,3.3
+Salsa's Mexican Restaurant,Dubuque,Dubuque,10.0,Dollar($),1,153,0,0,1,3.4
+Tony Roma's,Dubuque,Dubuque,25.0,Dollar($),2,65,0,0,3,3.3
+Vinny Vanucchi's,Dubuque,Dubuque,25.0,Dollar($),2,58,0,0,1,3.4
+Champps Americana,Dubuque,Dubuque,25.0,Dollar($),2,100,0,0,3,3.5
+Fiesta Cancun,Dubuque,Dubuque,10.0,Dollar($),1,156,0,0,1,3.6
+Happy Joe's Pizza & Ice Cream,Dubuque,Dubuque,0.0,Dollar($),1,74,0,0,3,3.5
+Houlihan's,Dubuque,Dubuque,25.0,Dollar($),2,117,0,0,2,3.6
+Ichiban Hibachi Steakhouse & Sushi Bar,Dubuque,Dubuque,40.0,Dollar($),3,83,0,0,3,3.7
+Kalmes Breaktime Bar & Grill,Dubuque,Dubuque,25.0,Dollar($),2,48,0,0,2,3.6
+L. May Eatery,Dubuque,Dubuque,40.0,Dollar($),3,198,0,0,2,3.8
+Los Aztecas,Dubuque,Dubuque,10.0,Dollar($),1,126,0,0,1,3.5
+Manna Java World Cafe,Dubuque,Dubuque,10.0,Dollar($),1,119,0,0,2,3.5
+Mario's Italian Restaurant,Dubuque,Dubuque,25.0,Dollar($),2,140,0,0,2,3.6
+Pepper Sprout Incorporated,Dubuque,Dubuque,40.0,Dollar($),3,159,0,0,1,3.6
+Shot Tower Inn,Dubuque,Dubuque,25.0,Dollar($),2,131,0,0,2,3.6
+Sunshine Family Restaurant,Dubuque,Dubuque,10.0,Dollar($),1,60,0,0,3,3.5
+Watershed Cafe,Dubuque,Dubuque,25.0,Dollar($),2,89,0,0,4,3.7
+Woodfire Grille,Dubuque,Dubuque,70.0,Dollar($),4,72,0,0,3,3.6
+The Belle General,East Ballina,East Ballina,20.0,Dollar($),2,56,0,0,1,4.1
+Jehova es Mi Pastor Tacos y Burritos,Fernley,Fernley,10.0,Dollar($),1,83,0,0,1,3.7
+Flaxton Gardens,Flaxton,Flaxton,30.0,Dollar($),3,37,0,0,2,3.5
+Bespoke Harvest,Forrest,Forrest,20.0,Dollar($),2,29,0,0,2,3.7
+Houndstooth Grill & Tavern,Gainesville,Braselton,25.0,Dollar($),2,239,0,0,3,4.4
+Hawg Wild BBQ & Catfish House,Gainesville,Clarkesville,10.0,Dollar($),1,235,0,0,3,4.1
+Bourbon Street Grille,Gainesville,Dahlonega,25.0,Dollar($),2,88,0,0,3,3.8
+Corkscrew Cafe,Gainesville,Dahlonega,40.0,Dollar($),3,209,0,0,1,3.9
+Smokin Gold BBQ,Gainesville,Dahlonega,10.0,Dollar($),1,133,0,0,1,3.9
+Hoka-Hoka Japanese Steak & Sushi,Gainesville,Dahlonega,10.0,Dollar($),1,267,0,0,3,4.4
+Shenanigan's Irish Pub,Gainesville,Dahlonega,25.0,Dollar($),2,171,0,0,3,4.1
+Fish Tales Lakeside Grille,Gainesville,Flowery Branch,25.0,Dollar($),2,107,0,0,1,3.8
+Antebellum,Gainesville,Flowery Branch,40.0,Dollar($),3,164,0,0,2,4.3
+Moonie's Texas Barbecue,Gainesville,Flowery Branch,10.0,Dollar($),1,182,0,0,2,4.1
+Atlanta Highway Seafood Market,Gainesville,Gainesville,25.0,Dollar($),2,681,0,0,3,4.9
+Eat at Thai,Gainesville,Gainesville,10.0,Dollar($),1,357,0,0,1,4.6
+Smoke House BBQ and Catering,Gainesville,Gainesville,25.0,Dollar($),2,89,0,0,1,3.8
+2 Dog,Gainesville,Gainesville,25.0,Dollar($),2,350,0,0,3,4.2
+Longstreet Cafe,Gainesville,Gainesville,10.0,Dollar($),1,298,0,0,1,4.3
+Re-Cess,Gainesville,Gainesville,25.0,Dollar($),2,319,0,0,2,4.2
+Bodensee,Gainesville,Helen,40.0,Dollar($),3,114,0,0,1,3.8
+Hofer's Bakery & Cafe,Gainesville,Helen,10.0,Dollar($),1,136,0,0,2,3.9
+Troll Tavern,Gainesville,Helen,25.0,Dollar($),2,108,0,0,3,2.2
+The Nacoochee Village Tavern & Pizzeria,Gainesville,Helen,10.0,Dollar($),1,161,0,0,3,4.0
+Blue Bean Love Cafe,Hepburn Springs,Hepburn Springs,20.0,Dollar($),2,192,0,0,3,3.8
+La Trattoria of Lavandula,Hepburn Springs,Hepburn Springs,7.0,Dollar($),1,93,0,0,3,3.8
+5 Little Pigs,Huskisson,Huskisson,20.0,Dollar($),2,40,0,0,2,4.1
+Beach Box Cafe,Inverloch,Inverloch,7.0,Dollar($),1,100,0,0,3,3.7
+Funkey Monkey,Lakes Entrance,Lakes Entrance,7.0,Dollar($),1,97,0,0,2,3.8
+Burger Queen Drive In,Lakeview,Lakeview,10.0,Dollar($),1,41,0,0,3,3.6
+Blue Orchid Thai Restaurant,Lincoln,Haymarket,25.0,Dollar($),2,799,0,0,1,4.5
+Stillwater on Belmore,Lorn,Lorn,20.0,Dollar($),2,18,0,0,2,3.6
+Mr.,Macedon,Macedon,20.0,Dollar($),2,31,0,0,1,3.5
+Emilio's Cuban Cafe,Macon,Bonaire,25.0,Dollar($),2,146,0,0,3,3.9
+Ingleside Village Pizza,Macon,Macon,10.0,Dollar($),1,478,0,0,2,4.9
+Jim Shaw's Seafood Grill & Bar,Macon,Macon,25.0,Dollar($),2,467,0,0,1,4.6
+Mandarin Chinese Restaurant,Macon,Macon,25.0,Dollar($),2,302,0,0,2,4.5
+Rookery,Macon,Macon,25.0,Dollar($),2,289,0,0,3,4.5
+Dovetail,Macon,Macon,40.0,Dollar($),3,102,0,0,1,3.8
+Bonefish Grill,Macon,Macon,40.0,Dollar($),3,293,0,0,2,4.1
+Downtown Grill,Macon,Macon,70.0,Dollar($),4,195,0,0,1,4.0
+Greek Corner Deli,Macon,Macon,10.0,Dollar($),1,244,0,0,3,4.3
+Natalia's,Macon,Macon,70.0,Dollar($),4,379,0,0,3,4.2
+Papouli's Mediterranean Cafe & Market,Macon,Macon,10.0,Dollar($),1,223,0,0,3,4.2
+Benson's Steak and Sushi,Macon,Warner Robins,25.0,Dollar($),2,243,0,0,3,3.7
+My Fathers Place,Macon,Warner Robins,25.0,Dollar($),2,104,0,0,1,3.7
+Sushi Thai Restaurant,Macon,Warner Robins,10.0,Dollar($),1,153,0,0,3,3.7
+The Mellow Mushroom,Macon,Warner Robins,25.0,Dollar($),2,323,0,0,3,3.8
+El Jalisciense Mexican Restaurant,Macon,Warner Robins,10.0,Dollar($),1,181,0,0,1,4.1
+Greek Village,Macon,Warner Robins,25.0,Dollar($),2,316,0,0,3,4.0
+Martin's BBQ,Macon,Warner Robins,25.0,Dollar($),2,288,0,0,1,4.2
+Thai Pepper,Macon,Warner Robins,10.0,Dollar($),1,232,0,0,3,4.0
+Zen Japanese Steakhouse and Sushi Bar,Macon,Warner Robins,40.0,Dollar($),3,314,0,0,3,4.1
+Star Buffet,Mayfield,Mayfield,20.0,Dollar($),2,11,0,0,1,2.9
+Triangle Restaurant,Mc Millan,Mc Millan,10.0,Dollar($),1,17,0,0,2,2.4
+Three Anchors,Middleton Beach,Middleton Beach,30.0,Dollar($),3,176,0,0,2,3.8
+HI Lite Bar & Lounge,Miller,Miller,0.0,Dollar($),1,11,0,0,1,3.4
+Vince's Restaurant & Pizzeria,Monroe,Monroe,25.0,Dollar($),2,65,0,0,2,3.6
+Poets Cafe,Montville,Montville,30.0,Dollar($),3,193,0,0,2,2.4
+The Artesian Restaurant,Ojo Caliente,Ojo Caliente,40.0,Dollar($),3,30,0,0,3,3.6
+Ceví_che Tapas Bar & Restaurant,Orlando,Church Street District,40.0,Dollar($),3,981,0,0,2,4.4
+'Ohana,Orlando,Disney World Area,45.0,Dollar($),3,1151,0,0,1,4.5
+Earl of Sandwich,Orlando,Disney: Downtown Disney,35.0,Dollar($),3,1341,0,0,3,4.7
+Raglan Road Irish Pub and Restaurant,Orlando,Disney: Downtown Disney,50.0,Dollar($),4,782,0,0,1,4.3
+Cafí© Tu Tu Tango,Orlando,I-Drive/Universal,40.0,Dollar($),3,1293,0,0,2,4.6
+Texas de Brazil,Orlando,I-Drive/Universal,100.0,Dollar($),4,2324,0,0,2,4.6
+Bahama Breeze Island Grille,Orlando,I-Drive/Universal,45.0,Dollar($),3,910,0,0,1,4.3
+Maggiano's Little Italy,Orlando,I-Drive/Universal,50.0,Dollar($),4,886,0,0,1,4.4
+Hawkers Asian Street Fare,Orlando,Mills 50,35.0,Dollar($),3,1293,0,0,2,4.6
+Tako Cheena by Pom Pom,Orlando,Mills 50,10.0,Dollar($),1,570,0,0,3,4.4
+Seasons 52 Fresh Grill,Orlando,Restaurant Row,60.0,Dollar($),4,1685,0,0,1,4.4
+Hollerbach's Willow Tree Cafí©,Orlando,Sanford,40.0,Dollar($),3,1699,0,0,1,4.8
+Pom Pom's Teahouse and Sandwicheria,Orlando,The Milk District,25.0,Dollar($),2,1457,0,0,3,4.9
+Yellow Dog Eats,Orlando,Windermere,35.0,Dollar($),3,1252,0,0,3,4.9
+Tibby's New Orleans Kitchen,Orlando,Winter Park,25.0,Dollar($),2,1412,0,0,1,4.7
+The Coop,Orlando,Winter Park,25.0,Dollar($),2,432,0,0,3,3.6
+Bosphorous Turkish Cuisine,Orlando,Winter Park,40.0,Dollar($),3,568,0,0,2,4.2
+Ethos Vegan Kitchen,Orlando,Winter Park,25.0,Dollar($),2,797,0,0,3,4.4
+Hillstone,Orlando,Winter Park,40.0,Dollar($),3,1158,0,0,1,4.4
+The Ravenous Pig,Orlando,Winter Park,40.0,Dollar($),3,1998,0,0,1,4.4
+Vivo Bar and Grill,Palm Cove,Palm Cove,30.0,Dollar($),3,381,0,0,2,4.4
+Pier 70,Paynesville,Paynesville,120.0,Dollar($),4,16,0,0,1,2.6
+DiVine,Penola,Penola,20.0,Dollar($),2,19,0,0,3,3.4
+Cactus Flower Cafe Navarre,Pensacola,Navarre,25.0,Dollar($),2,635,0,0,3,4.2
+McGuire's Irish Pub & Brewery,Pensacola,Pensacola,40.0,Dollar($),3,2238,0,0,3,4.9
+New Yorker Deli & Pizzeria,Pensacola,Pensacola,10.0,Dollar($),1,792,0,0,3,4.6
+Tu-Do Vietnamese Restaurant,Pensacola,Pensacola,10.0,Dollar($),1,828,0,0,2,4.5
+Carrabba's Italian Grill,Pensacola,Pensacola,40.0,Dollar($),3,292,0,0,3,3.7
+Jaco's Bayfront Bar and Grille,Pensacola,Pensacola,25.0,Dollar($),2,502,0,0,1,3.9
+The Tin Cow,Pensacola,Pensacola,25.0,Dollar($),2,559,0,0,2,3.7
+Cactus Flower Cafe,Pensacola,Pensacola,25.0,Dollar($),2,1268,0,0,3,4.2
+Dharma Blue,Pensacola,Pensacola,40.0,Dollar($),3,669,0,0,2,4.1
+Global Grill,Pensacola,Pensacola,40.0,Dollar($),3,900,0,0,3,4.4
+Ichiban,Pensacola,Pensacola,25.0,Dollar($),2,765,0,0,2,4.3
+The Fish House,Pensacola,Pensacola,40.0,Dollar($),3,1270,0,0,3,4.0
+Tuscan Oven,Pensacola,Pensacola,25.0,Dollar($),2,502,0,0,3,4.1
+Flounders Chowder House,Pensacola,Pensacola Beach,40.0,Dollar($),3,724,0,0,1,3.9
+Hemingway's Island Grill,Pensacola,Pensacola Beach,40.0,Dollar($),3,479,0,0,3,3.5
+Native Cafe,Pensacola,Pensacola Beach,25.0,Dollar($),2,591,0,0,2,4.2
+Peg Leg Pete's,Pensacola,Pensacola Beach,40.0,Dollar($),3,1408,0,0,3,4.4
+The Grand Marlin,Pensacola,Pensacola Beach,40.0,Dollar($),3,905,0,0,2,4.3
+Original Georgios Authentic Greek Food,Pensacola,Perdido Key,10.0,Dollar($),1,816,0,0,1,4.7
+Fisherman's Corner,Pensacola,Perdido Key,40.0,Dollar($),3,747,0,0,3,4.4
+Mad Cowes Cafe,Phillip Island,Phillip Island,20.0,Dollar($),2,351,0,0,3,3.7
+Rupes Burgers,Pocatello,Blackfoot,10.0,Dollar($),1,104,0,0,2,3.7
+Texas Roadhouse,Pocatello,Chubbuck,45.0,Dollar($),3,83,0,0,3,3.5
+Riverwalk Cafe,Pocatello,Lava Hot Springs,10.0,Dollar($),1,91,0,0,2,3.6
+Royal Hotel,Pocatello,Lava Hot Springs,0.0,Dollar($),1,59,0,0,2,3.6
+Buddy's Italian Restaurant,Pocatello,Pocatello,40.0,Dollar($),3,222,0,0,3,3.7
+Butterburrs,Pocatello,Pocatello,30.0,Dollar($),3,121,0,0,2,3.6
+Chang Garden,Pocatello,Pocatello,10.0,Dollar($),1,93,0,0,1,3.5
+Fifth Street Bagelry,Pocatello,Pocatello,10.0,Dollar($),1,136,0,0,2,3.8
+Goody's Deli,Pocatello,Pocatello,10.0,Dollar($),1,160,0,0,2,3.8
+Grecian Key Restaurant,Pocatello,Pocatello,25.0,Dollar($),2,152,0,0,2,3.7
+Outer Limits Fun Zone,Pocatello,Pocatello,10.0,Dollar($),1,57,0,0,3,3.5
+Portneuf Valley Brewing,Pocatello,Pocatello,25.0,Dollar($),2,191,0,0,2,3.7
+Sandpiper Restaurant & Lounge,Pocatello,Pocatello,40.0,Dollar($),3,85,0,0,3,3.6
+Senor Iguanas,Pocatello,Pocatello,0.0,Dollar($),1,108,0,0,1,3.6
+Sushi Family,Pocatello,Pocatello,25.0,Dollar($),2,132,0,0,3,3.6
+Taste of India Nepal,Pocatello,Pocatello,25.0,Dollar($),2,141,0,0,3,3.8
+Thai Paradise,Pocatello,Pocatello,25.0,Dollar($),2,162,0,0,2,3.7
+The Bridge,Pocatello,Pocatello,40.0,Dollar($),3,144,0,0,1,3.6
+El Herradero,Pocatello,Pocatello,10.0,Dollar($),1,365,0,0,1,4.1
+Barrett Junction Cafe,Potrero,Potrero,25.0,Dollar($),2,9,0,0,3,3.3
+Blue Point Grill,Princeton,Princeton,70.0,Dollar($),4,542,0,0,1,4.0
+Giovanni's Shrimp Truck,Rest of Hawaii,Kahuku,25.0,Dollar($),2,691,0,0,1,4.5
+Kona Brewing Company,Rest of Hawaii,Kailua Kona,35.0,Dollar($),3,764,0,0,3,4.7
+Leonard's Bakery,Rest of Hawaii,Kaimuki,10.0,Dollar($),1,707,0,0,1,4.7
+Coconuts Fish Cafe,Rest of Hawaii,Kihei,30.0,Dollar($),3,487,0,0,1,4.5
+Kihei Caffe,Rest of Hawaii,Kihei,10.0,Dollar($),1,695,0,0,2,4.5
+Monkeypod Kitchen by Merriman,Rest of Hawaii,Kihei,40.0,Dollar($),3,485,0,0,1,4.2
+Sansei Seafood Restaurant & Sushi Bar,Rest of Hawaii,Kihei,40.0,Dollar($),3,807,0,0,3,4.2
+Star Noodle,Rest of Hawaii,Lahaina,10.0,Dollar($),1,723,0,0,1,4.6
+Aloha Mixed Plate,Rest of Hawaii,Lahaina,10.0,Dollar($),1,874,0,0,3,4.2
+Gazebo,Rest of Hawaii,Lahaina,25.0,Dollar($),2,552,0,0,2,4.4
+Hula Grill,Rest of Hawaii,Lahaina,40.0,Dollar($),3,1056,0,0,3,4.3
+Kimo's,Rest of Hawaii,Lahaina,40.0,Dollar($),3,707,0,0,3,4.3
+Mama's Fish House,Rest of Hawaii,Paia,70.0,Dollar($),4,1343,0,0,2,4.9
+Marukame Udon,Rest of Hawaii,Waikiki,10.0,Dollar($),1,602,0,0,1,4.9
+Yard House,Rest of Hawaii,Waikiki,40.0,Dollar($),3,1078,0,0,3,4.6
+Lulu's Waikiki,Rest of Hawaii,Waikiki,25.0,Dollar($),2,232,0,0,1,3.9
+Duke's Waikiki,Rest of Hawaii,Waikiki,70.0,Dollar($),4,1492,0,0,3,4.4
+Eggs 'n Things,Rest of Hawaii,Waikiki,10.0,Dollar($),1,535,0,0,1,4.0
+Roy's,Rest of Hawaii,Waikiki,70.0,Dollar($),4,531,0,0,3,4.2
+Wailana Coffee House,Rest of Hawaii,Waikiki,25.0,Dollar($),2,694,0,0,3,4.2
+The Lady & Sons,Savannah,Savannah,40.0,Dollar($),3,1201,0,0,1,3.3
+Green Truck Pub,Savannah,Savannah,40.0,Dollar($),3,906,0,0,1,4.7
+Leopold's Ice Cream,Savannah,Savannah,10.0,Dollar($),1,880,0,0,3,4.6
+Mrs. Wilkes' Dining Room,Savannah,Savannah,40.0,Dollar($),3,1014,0,0,2,4.5
+Zunzi's,Savannah,Savannah,25.0,Dollar($),2,796,0,0,3,4.5
+Moon River Brewing Company,Savannah,Savannah,25.0,Dollar($),2,747,0,0,3,3.7
+Pirates' House Restaurant,Savannah,Savannah,40.0,Dollar($),3,566,0,0,3,3.8
+B. Matthew's Eatery,Savannah,Savannah,25.0,Dollar($),2,683,0,0,2,4.1
+Crystal Beer Parlor,Savannah,Savannah,25.0,Dollar($),2,690,0,0,2,4.4
+Goose Feathers Cafe and Bakery,Savannah,Savannah,10.0,Dollar($),1,680,0,0,2,4.2
+Henry's,Savannah,Savannah,10.0,Dollar($),1,287,0,0,2,4.1
+Huey's On The River,Savannah,Savannah,40.0,Dollar($),3,802,0,0,2,4.1
+J. Christopher's,Savannah,Savannah,25.0,Dollar($),2,710,0,0,3,4.3
+Lulu's Chocolate Bar,Savannah,Savannah,10.0,Dollar($),1,456,0,0,2,4.3
+Rocks on the River,Savannah,Savannah,70.0,Dollar($),4,687,0,0,3,4.0
+SOHO South Cafe,Savannah,Savannah,25.0,Dollar($),2,719,0,0,3,4.3
+The Olde Pink House,Savannah,Savannah,70.0,Dollar($),4,1803,0,0,3,4.4
+Vic's On The River,Savannah,Savannah,70.0,Dollar($),4,558,0,0,1,4.1
+The Crab Shack,Savannah,Tybee Island,40.0,Dollar($),3,883,0,0,1,3.8
+Tybee Island Social Club,Savannah,Tybee Island,10.0,Dollar($),1,309,0,0,1,3.9
+Sky On 57,Singapore,"Bayfront Avenue, Downtown Core",300.0,Dollar($),4,34,0,0,3,3.4
+Cut By Wolfgang Puck,Singapore,"Bayfront Subzone, Downtown Core",270.0,Dollar($),4,33,0,0,2,4.0
+Restaurant Andre,Singapore,"Cantonment Road, Outram",500.0,Dollar($),4,33,0,0,3,3.8
+Potato Head Folk,Singapore,"Chinatown, Outram",80.0,Dollar($),4,34,0,0,1,3.1
+Jaan,Singapore,"City Hall, Downtown Core",430.0,Dollar($),4,35,0,0,1,3.8
+Rhubarb Le Restaurant,Singapore,"Duxton Hill, Outram",315.0,Dollar($),4,33,0,0,1,3.9
+Al'frank Cookies,Singapore,"Haji Lane, Rochor",20.0,Dollar($),2,29,0,0,1,4.2
+Fratini La Trattoria,Singapore,"Hillcrest, Bukit Timah",100.0,Dollar($),4,35,0,0,1,4.1
+Boufe Boutique Cafe,Singapore,"Kay Siang Road, Tanglin",50.0,Dollar($),3,29,0,0,4,3.2
+The Refinery Singapore,Singapore,"Lavender, Kallang",80.0,Dollar($),4,30,0,0,3,3.2
+Chye Seng Huat Hardware,Singapore,"Lavender, Kallang",40.0,Dollar($),3,33,0,0,1,3.7
+Makansutra Gluttons Bay,Singapore,"Marina Centre, Downtown Core",30.0,Dollar($),3,25,0,0,5,3.0
+Colony,Singapore,"Marina Centre, Downtown Core",220.0,Dollar($),4,30,0,0,3,3.8
+Summer Pavilion,Singapore,"Marina Centre, Downtown Core",300.0,Dollar($),4,34,0,0,4,3.9
+The Lokal,Singapore,"Neil Road, Outram",60.0,Dollar($),4,33,0,0,3,3.1
+I Am,Singapore,"North Bridge Road, Rochor",60.0,Dollar($),4,32,0,0,3,3.2
+Super Loco,Singapore,"Robertson Quay, Singapore River",95.0,Dollar($),4,30,0,0,2,3.2
+Artistry,Singapore,"Sungai Pinang, Rochor",50.0,Dollar($),3,28,0,0,5,3.8
+Bitters & Love,Singapore,"Telok Ayer Street, Outram",40.0,Dollar($),3,35,0,0,1,3.9
+Artichoke Cafe,Singapore,"Victoria, Rochor",75.0,Dollar($),4,33,0,0,4,3.2
+Archie's Waeside,Sioux City,Le Mars,40.0,Dollar($),3,100,0,0,3,3.7
+Bob Roe's Pizza,Sioux City,Sioux City,10.0,Dollar($),1,92,0,0,3,3.6
+Da Kao Restaurant,Sioux City,Sioux City,10.0,Dollar($),1,182,0,0,3,3.8
+Famous Dave's,Sioux City,Sioux City,10.0,Dollar($),1,76,0,0,1,3.6
+Fuji Bay Japanese Restaurant,Sioux City,Sioux City,40.0,Dollar($),3,129,0,0,2,3.7
+HuHot Mongolian Grill,Sioux City,Sioux City,25.0,Dollar($),2,94,0,0,2,3.6
+Hunan Palace,Sioux City,Sioux City,25.0,Dollar($),2,129,0,0,1,3.8
+Jerry's Pizza,Sioux City,Sioux City,25.0,Dollar($),2,178,0,0,1,3.8
+Jim's Burgers,Sioux City,Sioux City,10.0,Dollar($),1,97,0,0,1,3.7
+Johnnie Mars,Sioux City,Sioux City,10.0,Dollar($),1,161,0,0,3,3.9
+Miles Inn,Sioux City,Sioux City,10.0,Dollar($),1,122,0,0,1,3.7
+Milwaukee Wiener House,Sioux City,Sioux City,10.0,Dollar($),1,195,0,0,2,3.8
+Minerva's Food & Cocktails,Sioux City,Sioux City,40.0,Dollar($),3,146,0,0,3,3.7
+Monterrey Mexican Restaurant,Sioux City,Sioux City,10.0,Dollar($),1,117,0,0,1,3.7
+Rebos,Sioux City,Sioux City,25.0,Dollar($),2,187,0,0,3,3.8
+Tokyo Japanese Steakhouse & Sushi Bar,Sioux City,Sioux City,40.0,Dollar($),3,239,0,0,3,3.9
+Diamond Thai Cuisine,Sioux City,Sioux City,10.0,Dollar($),1,303,0,0,3,4.0
+El Fredo Pizza,Sioux City,Sioux City,40.0,Dollar($),3,280,0,0,1,4.0
+Trattoria Fresco,Sioux City,Sioux City,25.0,Dollar($),2,271,0,0,1,4.0
+Kahill's Steak-Fish Chophouse,Sioux City,South Sioux City,70.0,Dollar($),4,58,0,0,3,3.5
+Rumba Island Bar & Grill,Tampa Bay,Clearwater,25.0,Dollar($),2,1321,0,0,3,4.6
+Red Mesa Cantina,Tampa Bay,Downtown St Petersburg,25.0,Dollar($),2,1629,0,0,3,4.6
+BellaBrava,Tampa Bay,Downtown St Petersburg,25.0,Dollar($),2,921,0,0,3,4.1
+Ceviche Tapas Bar & Restaurant,Tampa Bay,Downtown St Petersburg,25.0,Dollar($),2,986,0,0,2,4.1
+The Moon Under Water,Tampa Bay,Downtown St Petersburg,25.0,Dollar($),2,1020,0,0,3,4.1
+Bern's Steak House,Tampa Bay,Hyde Park,70.0,Dollar($),4,3157,0,0,3,4.7
+Boca Kitchen Bar Market,Tampa Bay,Hyde Park,40.0,Dollar($),3,665,0,0,1,3.9
+Edison: Food+Drink Lab,Tampa Bay,Hyde Park,70.0,Dollar($),4,373,0,0,1,3.9
+Ceviche Tapas Bar & Restaurant,Tampa Bay,Hyde Park,25.0,Dollar($),2,1007,0,0,3,4.4
+Daily Eats,Tampa Bay,Hyde Park,25.0,Dollar($),2,803,0,0,2,4.4
+Salt Rock Grill,Tampa Bay,Indian Rocks/Indian Shores,40.0,Dollar($),3,1363,0,0,3,4.2
+Mazzaro's Italian Market,Tampa Bay,Kenwood,10.0,Dollar($),1,1424,0,0,2,4.9
+Conch Republic Grill,Tampa Bay,Madeira Beach/Redington Beach,40.0,Dollar($),3,844,0,0,3,4.5
+Mr. Dunderbak's Biergarten and Marketplatz,Tampa Bay,New Tampa,40.0,Dollar($),3,1413,0,0,2,4.9
+Red Mesa Restaurant,Tampa Bay,Northeast St Petersburg,40.0,Dollar($),3,1203,0,0,2,4.5
+Datz,Tampa Bay,Palma Ceia,40.0,Dollar($),3,3074,0,0,2,4.7
+Ella's Americana Folk Art Cafe,Tampa Bay,Seminole Heights,40.0,Dollar($),3,1715,0,0,3,4.8
+Taco Bus,Tampa Bay,Seminole Heights,10.0,Dollar($),1,1868,0,0,2,4.5
+The Refinery,Tampa Bay,Seminole Heights,40.0,Dollar($),3,875,0,0,2,4.0
+Columbia Restaurant,Tampa Bay,Ybor City,40.0,Dollar($),3,1746,0,0,2,4.4
+1918 Bistro & Grill,Tanunda,Tanunda,30.0,Dollar($),3,339,0,0,2,4.4
+Pig and Whistle,Trentham East,Trentham East,20.0,Dollar($),2,87,0,0,1,4.1
+Buffalo Wild Wings,Valdosta,Valdosta,25.0,Dollar($),2,98,0,0,1,3.4
+El Toreo Mexican Restaurant,Valdosta,Valdosta,25.0,Dollar($),2,83,0,0,1,3.1
+306 North Restaurant,Valdosta,Valdosta,40.0,Dollar($),3,231,0,0,2,3.9
+Austins Cattle Co,Valdosta,Valdosta,40.0,Dollar($),3,216,0,0,3,3.7
+Beijing Cafe,Valdosta,Valdosta,35.0,Dollar($),3,185,0,0,3,3.8
+Bleu Cafe,Valdosta,Valdosta,25.0,Dollar($),2,185,0,0,2,3.7
+Bleu Pub,Valdosta,Valdosta,10.0,Dollar($),1,281,0,0,3,3.8
+Bubba Jax Crab Shack,Valdosta,Valdosta,40.0,Dollar($),3,137,0,0,2,3.7
+Cheddar's Scratch Kitchen,Valdosta,Valdosta,25.0,Dollar($),2,209,0,0,1,3.7
+El Cazador,Valdosta,Valdosta,10.0,Dollar($),1,168,0,0,1,3.7
+Friends Grille and Bar,Valdosta,Valdosta,25.0,Dollar($),2,243,0,0,2,3.9
+Giulios Greek & Italian Restaurant,Valdosta,Valdosta,40.0,Dollar($),3,221,0,0,2,3.8
+La Jalisco Supermercato,Valdosta,Valdosta,10.0,Dollar($),1,46,0,0,1,3.5
+Masato Japanese,Valdosta,Valdosta,25.0,Dollar($),2,262,0,0,2,3.9
+Mom & Dad's Italian Restaurant,Valdosta,Valdosta,25.0,Dollar($),2,183,0,0,1,3.7
+Mori's Japanese Steakhouse & Sushi Bar,Valdosta,Valdosta,70.0,Dollar($),4,208,0,0,3,3.5
+Passage 2 India,Valdosta,Valdosta,25.0,Dollar($),2,245,0,0,2,3.8
+Rodeo Mexican Restaurant,Valdosta,Valdosta,25.0,Dollar($),2,199,0,0,1,3.8
+Steel Magnolias,Valdosta,Valdosta,40.0,Dollar($),3,225,0,0,1,3.8
+Smok'n Pig B-B-Q,Valdosta,Valdosta,25.0,Dollar($),2,575,0,0,1,4.1
+Blue House Cafe,Vernonia,Vernonia,10.0,Dollar($),1,88,0,0,2,4.3
+Anchorage Cafe Restaurant Wine Bar,Victor Harbor,Victor Harbor,20.0,Dollar($),2,96,0,0,3,3.6
+Lake House Restaurant,Vineland Station,Vineland Station,70.0,Dollar($),4,204,0,0,3,4.3
+Masala Grill & Coffee House,Waterloo,Cedar Falls,10.0,Dollar($),1,18,0,0,2,3.2
+Brown Bottle The Cedar Falls,Waterloo,Cedar Falls,25.0,Dollar($),2,134,0,0,3,3.7
+Four Queens Dairy Cream,Waterloo,Cedar Falls,10.0,Dollar($),1,190,0,0,1,3.9
+Hong Kong Chinese Restaurant,Waterloo,Cedar Falls,10.0,Dollar($),1,136,0,0,1,3.8
+HuHot Mongolian Grill,Waterloo,Cedar Falls,25.0,Dollar($),2,113,0,0,2,3.7
+J's Homestyle Cooking,Waterloo,Cedar Falls,10.0,Dollar($),1,69,0,0,2,3.6
+Montage,Waterloo,Cedar Falls,40.0,Dollar($),3,89,0,0,3,3.6
+Mulligan's Brick Oven Grill,Waterloo,Cedar Falls,25.0,Dollar($),2,80,0,0,3,3.6
+Sakura,Waterloo,Cedar Falls,40.0,Dollar($),3,175,0,0,2,3.8
+Scratch,Waterloo,Cedar Falls,10.0,Dollar($),1,136,0,0,3,3.7
+SOHO Sushi Bar & Deli,Waterloo,Cedar Falls,25.0,Dollar($),2,114,0,0,3,3.6
+Texas Roadhouse,Waterloo,Cedar Falls,25.0,Dollar($),2,93,0,0,3,3.6
+Tony's La Pizzeria,Waterloo,Cedar Falls,25.0,Dollar($),2,89,0,0,2,3.6
+Chapala,Waterloo,Waterloo,25.0,Dollar($),2,69,0,0,1,3.6
+Galleria de Paco,Waterloo,Waterloo,40.0,Dollar($),3,86,0,0,1,3.6
+Golden China,Waterloo,Waterloo,10.0,Dollar($),1,73,0,0,1,3.7
+Rudy's Tacos,Waterloo,Waterloo,25.0,Dollar($),2,104,0,0,1,3.6
+The Screaming Eagle,Waterloo,Waterloo,10.0,Dollar($),1,101,0,0,2,3.7
+The Thai Bowl,Waterloo,Waterloo,10.0,Dollar($),1,58,0,0,1,3.5
+Tokyo Japanese Steak House,Waterloo,Waterloo,25.0,Dollar($),2,156,0,0,3,3.9
+Theo Yianni's Authentic Greek Restaurant,Weirton,Weirton,25.0,Dollar($),2,156,0,0,3,3.9
+Fishpatrick's Crabby Cafe,Winchester Bay,Winchester Bay,25.0,Dollar($),2,16,0,0,3,3.2
+Arigato Sushi,Yorkton,Yorkton,25.0,Dollar($),2,26,0,0,1,3.3
+Denny's,Abu Dhabi,"Abu Dhabi Mall, Tourist Club Area  (Al Zahiyah)",51.300000000000004,Emirati Diram(AED),4,207,0,0,1,4.6
+Famous Dave's Barbecue,Abu Dhabi,"Abu Dhabi Mall, Tourist Club Area  (Al Zahiyah)",70.2,Emirati Diram(AED),4,376,0,1,1,4.6
+Pizza Di Rocco,Abu Dhabi,Al Dhafrah,40.5,Emirati Diram(AED),3,471,1,1,2,4.4
+Sofra Istanbul,Abu Dhabi,Al Dhafrah,18.900000000000002,Emirati Diram(AED),2,224,0,0,3,4.3
+Salt,Abu Dhabi,Al Mushrif,27.0,Emirati Diram(AED),3,228,0,0,2,4.2
+Genghis Grill,Abu Dhabi,"Al Wahda Mall, Al Wahda",48.6,Emirati Diram(AED),4,81,0,0,1,4.6
+Olive Garden,Abu Dhabi,"Al Wahda Mall, Al Wahda",62.1,Emirati Diram(AED),4,422,0,0,2,4.1
+Cho Gao - Crowne Plaza Abu Dhabi,Abu Dhabi,"Crowne Plaza Abu Dhabi, Al Markaziya",94.5,Emirati Diram(AED),4,246,1,1,5,4.4
+Gazebo,Abu Dhabi,"Dalma Mall, Mussafah Sanaiya",32.400000000000006,Emirati Diram(AED),3,355,1,1,4,4.0
+Sangeetha Vegetarian Restaurant,Abu Dhabi,Madinat Zayed,16.200000000000003,Emirati Diram(AED),2,268,0,1,2,3.6
+Hot Palayok,Abu Dhabi,"Madinat Zayed Shopping Centre, Madinat Zayed ",27.0,Emirati Diram(AED),3,162,0,1,3,4.5
+Applebee's,Abu Dhabi,"Mushrif Mall, Al Mushrif",67.5,Emirati Diram(AED),4,205,0,1,3,4.0
+Tikka Tonight,Abu Dhabi,Mussafah Sanaiya,13.5,Emirati Diram(AED),2,277,0,1,4,4.0
+Bait El Khetyar,Abu Dhabi,Najda,18.900000000000002,Emirati Diram(AED),2,380,0,1,3,4.0
+Indian By Nature,Abu Dhabi,Najda,21.6,Emirati Diram(AED),3,180,1,1,1,4.3
+Via Delhi,Abu Dhabi,Najda,27.0,Emirati Diram(AED),3,525,0,1,3,4.0
+Punjab Grill,Abu Dhabi,"Venetian Village, Al Maqtaa",89.10000000000001,Emirati Diram(AED),4,216,1,0,2,4.9
+Tamba,Abu Dhabi,"World Trade Center Mall, Al Markaziya",135.0,Emirati Diram(AED),4,201,1,0,1,4.7
+P.F. Chang's,Abu Dhabi,"World Trade Center Mall, Al Markaziya",67.5,Emirati Diram(AED),4,435,0,0,1,4.2
+The Cheesecake Factory,Abu Dhabi,"Yas Mall, Yas Island",54.0,Emirati Diram(AED),4,586,0,0,2,4.6
+The Farm,Dubai,Al Barari,75.60000000000001,Emirati Diram(AED),3,927,1,0,4,3.9
+Maharaja Bhog,Dubai,Al Karama,24.3,Emirati Diram(AED),2,1448,1,1,2,4.1
+Rasoi Ghar,Dubai,Al Karama,24.3,Emirati Diram(AED),2,1281,1,1,1,4.3
+Barbeque Nation,Dubai,Barsha 2,40.5,Emirati Diram(AED),3,307,1,0,2,4.5
+Farzi Cafe,Dubai,"CITY WALK, Al Safa",54.0,Emirati Diram(AED),3,909,1,0,2,4.5
+AB's Absolute Barbecues,Dubai,Deira City Centre Area,43.2,Emirati Diram(AED),3,641,1,0,2,4.9
+Carnival By Tresind,Dubai,DIFC,135.0,Emirati Diram(AED),4,322,1,0,1,4.9
+AB's Absolute Barbecues,Dubai,Dubai Media City,43.2,Emirati Diram(AED),3,2510,1,0,2,4.8
+Hard Rock Cafe,Dubai,Festival City,81.0,Emirati Diram(AED),4,1388,0,0,2,4.5
+The Coffee Club,Dubai,Jumeirah 1,37.800000000000004,Emirati Diram(AED),3,403,0,1,1,4.5
+SALT,Dubai,"Kite Beach, Umm Suqeim",27.0,Emirati Diram(AED),3,1351,0,0,2,4.3
+Din Tai Fung,Dubai,"Mall of the Emirates, Barsha 1",43.2,Emirati Diram(AED),3,661,0,0,2,4.3
+SpiceKlub,Dubai,Mankhool,40.5,Emirati Diram(AED),3,281,1,0,3,4.4
+Tresind - Nassima Royal Hotel,Dubai,"Nassima Royal Hotel, Trade Centre Area",135.0,Emirati Diram(AED),4,1352,1,0,1,4.9
+Grand Barbeque Buffet Restaurant,Dubai,Satwa,40.5,Emirati Diram(AED),3,552,1,1,2,4.4
+Red Lobster,Dubai,"The Dubai Mall,Downtown Dubai",76.95,Emirati Diram(AED),3,506,0,0,2,3.2
+The Cheesecake Factory,Dubai,"The Dubai Mall,Downtown Dubai",72.9,Emirati Diram(AED),3,2424,0,0,2,4.7
+Parker's,Dubai,"The Dubai Mall,Downtown Dubai",45.900000000000006,Emirati Diram(AED),3,386,0,0,2,4.3
+Applebee's,Dubai,Trade Centre Area,67.5,Emirati Diram(AED),3,500,0,1,3,3.7
+Grub Shack,Dubai,Umm Hurair,35.1,Emirati Diram(AED),3,544,1,1,4,4.3
+Kamat,Sharjah,Abu Shagara,22.950000000000003,Emirati Diram(AED),3,285,0,1,4,3.9
+Vadakkan Pepper,Sharjah,Abu Shagara,18.900000000000002,Emirati Diram(AED),3,210,0,1,1,3.8
+Gazebo,Sharjah,Abu Shagara,32.400000000000006,Emirati Diram(AED),4,372,0,1,4,4.1
+Katis Restaurant,Sharjah,Al Khan,17.55,Emirati Diram(AED),3,316,0,0,3,4.3
+Zaroob,Sharjah,Al Majaz,29.700000000000003,Emirati Diram(AED),4,69,0,1,1,3.9
+Derby,Sharjah,Al Majaz,10.8,Emirati Diram(AED),2,33,0,0,2,4.1
+Nayaab Haandi,Sharjah,Al Majaz,27.0,Emirati Diram(AED),4,449,0,1,2,4.1
+Najmat Lahore Restaurant,Sharjah,Al Mareija,21.6,Emirati Diram(AED),3,504,0,1,3,4.2
+Saffron,Sharjah,Al Mareija,24.3,Emirati Diram(AED),3,192,0,1,4,4.1
+Pizza Hut,Sharjah,Al Nahda,21.6,Emirati Diram(AED),3,154,0,0,2,2.4
+Al Mukhtar Bakery,Sharjah,Al Nahda,13.5,Emirati Diram(AED),2,142,0,0,3,4.2
+Aroos Damascus,Sharjah,Al Nud,16.200000000000003,Emirati Diram(AED),3,444,0,0,2,4.2
+Nando's,Sharjah,"Al Qasba, Al Khan",43.2,Emirati Diram(AED),4,265,0,1,2,4.2
+Peking Chinese Restaurant,Sharjah,Halwan Suburb,35.1,Emirati Diram(AED),4,227,0,1,2,3.8
+TGI Friday's,Sharjah,"Majaz Waterfront, Al Majaz 3",67.5,Emirati Diram(AED),4,357,0,1,2,3.9
+Rajasthan Al Malaki,Sharjah,Muwailih Commercial,16.200000000000003,Emirati Diram(AED),3,459,0,0,2,4.8
+Applebee's,Sharjah,"Sahara Centre, Al Nahda",67.5,Emirati Diram(AED),4,197,0,1,3,4.1
+Paper Fig,Sharjah,University City,40.5,Emirati Diram(AED),4,143,0,0,3,4.5
+Sis Burger,Sharjah,University City,13.5,Emirati Diram(AED),2,12,0,0,2,3.8
+Crafted Blends,Sharjah,University City,29.700000000000003,Emirati Diram(AED),4,43,0,0,1,4.2
+Jahanpanah,Agra,Agra Cantt,10.200000000000001,Indian Rupees(Rs.),3,140,0,0,2,3.9
+Rangrezz Restaurant,Agra,Agra Cantt,8.4,Indian Rupees(Rs.),2,71,0,0,2,3.5
+Time2Eat - Mama Chicken,Agra,Agra Cantt,6.0,Indian Rupees(Rs.),2,94,0,0,1,3.6
+Chokho Jeeman Marwari Jain Bhojanalya,Agra,Civil Lines,4.8,Indian Rupees(Rs.),2,87,0,0,1,4.0
+Pinch Of Spice,Agra,Civil Lines,12.0,Indian Rupees(Rs.),3,177,0,0,3,4.2
+MoMo Cafe,Agra,"Courtyard by Marriott Agra, Tajganj",24.0,Indian Rupees(Rs.),4,45,0,0,2,4.0
+Peshawri - ITC Mughal,Agra,"ITC Mughal, Tajganj",30.0,Indian Rupees(Rs.),4,133,0,0,2,4.3
+Taj Bano - ITC Mughal,Agra,"ITC Mughal, Tajganj",30.0,Indian Rupees(Rs.),4,41,0,0,1,4.0
+G Thal,Agra,Khandari,9.6,Indian Rupees(Rs.),3,59,0,0,3,3.6
+Dawat-e-Nawab - Radisson Blu,Agra,"Radisson Blu, Tajganj",43.2,Indian Rupees(Rs.),4,46,0,0,2,3.8
+The Latitude - Radisson Blu,Agra,"Radisson Blu, Tajganj",0.0,Indian Rupees(Rs.),1,103,0,0,3,3.9
+Dasaprakash Restaurant,Agra,Rakabganj,6.6000000000000005,Indian Rupees(Rs.),2,121,0,0,2,4.1
+The Charcoal Chimney,Agra,Tajganj,13.200000000000001,Indian Rupees(Rs.),3,70,0,0,4,3.4
+Sheroes Hangout,Agra,Tajganj,0.0,Indian Rupees(Rs.),1,77,0,0,3,4.9
+Bon Barbecue,Agra,Tajganj,18.0,Indian Rupees(Rs.),4,57,0,0,3,3.8
+Chapter 1 Cafe,Agra,Tajganj,0.0,Indian Rupees(Rs.),1,98,0,0,5,3.9
+Pind Balluchi,Agra,Tajganj,10.8,Indian Rupees(Rs.),3,175,0,0,2,3.7
+Pizza Hut,Agra,Tajganj,8.4,Indian Rupees(Rs.),2,134,0,0,2,4.4
+Tea'se Me - Rooftop Tea Boutique,Agra,Tajganj,12.0,Indian Rupees(Rs.),3,166,0,0,4,4.2
+Thaaliwala,Agra,Tajganj,8.4,Indian Rupees(Rs.),2,168,0,0,2,4.1
+650 - The Global Kitchen,Ahmedabad,Ambavadi,10.8,Indian Rupees(Rs.),3,1582,0,0,6,4.2
+Patang - The Revolving Restaurant,Ahmedabad,Ashram Road,21.6,Indian Rupees(Rs.),4,1315,0,0,3,3.7
+Huber & Holly,Ahmedabad,Bodakdev,3.6,Indian Rupees(Rs.),1,217,0,1,3,4.5
+@Mango,Ahmedabad,Bodakdev,9.6,Indian Rupees(Rs.),3,769,0,0,4,4.1
+Fozzie's Pizzaiolo,Ahmedabad,Bodakdev,10.8,Indian Rupees(Rs.),3,731,0,1,4,4.3
+La Pino'z Pizza,Ahmedabad,Bodakdev,6.0,Indian Rupees(Rs.),2,113,0,1,2,4.4
+Mocha,Ahmedabad,Bodakdev,12.0,Indian Rupees(Rs.),3,944,0,1,3,4.4
+Blue -  Rooftop Cafe Restaurant Bistro,Ahmedabad,C G Road,12.0,Indian Rupees(Rs.),3,63,0,1,5,3.8
+MoMo Cafí© - Courtyard By Marriott,Ahmedabad,"Courtyard By Marriott, Satellite",16.8,Indian Rupees(Rs.),3,375,0,0,4,3.6
+Cryo Lab,Ahmedabad,Ellis Bridge,4.2,Indian Rupees(Rs.),2,166,0,0,2,4.6
+Swati Snacks,Ahmedabad,Ellis Bridge,5.4,Indian Rupees(Rs.),2,697,0,0,3,4.4
+Brick Kitchen,Ahmedabad,Ghatlodia,10.8,Indian Rupees(Rs.),3,325,0,0,3,4.3
+Kabir Restaurant,Ahmedabad,Gurukul,7.2,Indian Rupees(Rs.),2,432,0,1,6,3.8
+Puffizza,Ahmedabad,Gurukul,8.4,Indian Rupees(Rs.),2,744,0,1,2,4.3
+Cafe Alfresco,Ahmedabad,Navrangpura,8.4,Indian Rupees(Rs.),2,404,0,1,4,4.0
+The Cafe Baraco,Ahmedabad,Navrangpura,7.2,Indian Rupees(Rs.),2,317,0,1,2,4.4
+Nini's Kitchen,Ahmedabad,Prahlad Nagar,11.4,Indian Rupees(Rs.),3,1138,0,1,7,4.5
+Yanki Sizzlers,Ahmedabad,Thaltej,14.4,Indian Rupees(Rs.),3,1041,0,0,3,4.1
+The Garden Cafe - The Fern,Ahmedabad,"The Fern, Sola",14.4,Indian Rupees(Rs.),3,192,0,0,4,4.1
+Mazzo,Ahmedabad,Vastrapur,6.6000000000000005,Indian Rupees(Rs.),2,166,0,1,5,3.9
+Turquoise Villa,Ahmedabad,Vastrapur,14.4,Indian Rupees(Rs.),3,535,0,0,1,4.0
+Aryan Family's Delight,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,57,0,0,3,3.4
+Bean Here,Allahabad,Civil Lines,4.2,Indian Rupees(Rs.),2,76,0,0,2,3.3
+Bikanerwala,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,51,0,0,3,3.2
+Dewsis,Allahabad,Civil Lines,7.2,Indian Rupees(Rs.),3,99,0,0,2,3.4
+Friends Forever,Allahabad,Civil Lines,7.2,Indian Rupees(Rs.),3,83,0,0,2,3.4
+Hotel Ravisha Continental,Allahabad,Civil Lines,7.2,Indian Rupees(Rs.),3,18,0,0,3,3.4
+KFC,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,58,0,0,2,3.4
+McDonald's,Allahabad,Civil Lines,4.8,Indian Rupees(Rs.),2,53,0,0,1,3.3
+Pind Balluchi,Allahabad,Civil Lines,9.6,Indian Rupees(Rs.),3,6,0,0,2,3.2
+Pizza Hut,Allahabad,Civil Lines,8.4,Indian Rupees(Rs.),3,35,0,0,2,3.4
+Subway,Allahabad,Civil Lines,4.8,Indian Rupees(Rs.),2,32,0,0,4,3.4
+Tandoor Restaurant,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,151,0,0,2,3.2
+The BrewMaster,Allahabad,Civil Lines,0.0,Indian Rupees(Rs.),1,49,0,0,3,3.3
+The Tamarind Tree,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,106,0,0,2,3.4
+Cafe El Chico,Allahabad,Civil Lines,12.0,Indian Rupees(Rs.),4,59,0,0,2,3.6
+Eat On,Allahabad,Civil Lines,2.4,Indian Rupees(Rs.),1,105,0,0,1,3.7
+Hot Stuff,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,105,0,0,2,3.5
+Paradise,Allahabad,Civil Lines,6.0,Indian Rupees(Rs.),3,57,0,0,2,3.6
+Sagar Ratna,Allahabad,Tagore Town,4.8,Indian Rupees(Rs.),2,134,0,0,4,3.5
+Moti Mahal Delux,Allahabad,"Vinayak City Centre Mall, Civil Lines",9.6,Indian Rupees(Rs.),3,58,0,0,3,3.3
+Makhan Fish and Chicken Corner,Amritsar,Basant Nagar,8.4,Indian Rupees(Rs.),2,345,0,0,2,3.4
+Charming Chicken,Amritsar,Basant Nagar,3.6,Indian Rupees(Rs.),1,151,0,0,1,3.9
+Ahuja Milk Bhandar,Amritsar,Hathi Gate,1.2,Indian Rupees(Rs.),1,52,0,0,1,4.0
+Crystal Restaurant,Amritsar,INA Colony,9.6,Indian Rupees(Rs.),3,122,0,0,2,3.4
+Brijwasi Chat Bhandar,Amritsar,INA Colony,1.8,Indian Rupees(Rs.),1,56,0,0,1,3.6
+Bubby Fish & Chicken Corner,Amritsar,INA Colony,3.6,Indian Rupees(Rs.),1,91,0,0,1,3.5
+Bon Gateau,Amritsar,Ranjit Avenue,6.0,Indian Rupees(Rs.),2,26,0,0,3,3.4
+The Yellow Chilli,Amritsar,Ranjit Avenue,14.4,Indian Rupees(Rs.),3,98,0,0,3,3.4
+La Roma Pizzeria,Amritsar,Ranjit Avenue,4.8,Indian Rupees(Rs.),2,111,0,0,2,3.5
+Sakhis Watz Kukin,Amritsar,Ranjit Avenue,8.4,Indian Rupees(Rs.),2,51,0,0,2,3.6
+The Kulcha Land,Amritsar,Ranjit Avenue,2.4,Indian Rupees(Rs.),1,206,0,0,2,3.9
+Shudh Restaurant,Amritsar,Town Hall,7.2,Indian Rupees(Rs.),2,44,0,0,4,3.4
+Bade Bhai Ka Brothers' Dhaba,Amritsar,Town Hall,6.0,Indian Rupees(Rs.),2,94,0,0,2,3.7
+Bharawan Da Dhaba,Amritsar,Town Hall,6.0,Indian Rupees(Rs.),2,461,0,0,2,3.5
+Brothers Dhaba,Amritsar,Town Hall,6.0,Indian Rupees(Rs.),2,276,0,0,1,3.8
+Brothers' Amritsari Dhaba,Amritsar,Town Hall,4.8,Indian Rupees(Rs.),2,71,0,0,1,3.8
+Gurdas Ram Jalebi Wala,Amritsar,Town Hall,1.2,Indian Rupees(Rs.),1,104,0,0,1,4.1
+Kesar Da Dhabha,Amritsar,Town Hall,6.0,Indian Rupees(Rs.),2,878,0,0,1,4.1
+Beera Chicken Corner,Amritsar,White Avenue,6.0,Indian Rupees(Rs.),2,192,0,0,1,3.8
+Surjit Food Plaza,Amritsar,White Avenue,12.0,Indian Rupees(Rs.),3,96,0,0,1,3.5
+Kanha Sweets,Amritsar,White Avenue,1.8,Indian Rupees(Rs.),1,140,0,0,1,4.1
+Kream N Krunch,Aurangabad,Akashwani,9.6,Indian Rupees(Rs.),3,240,0,0,4,3.6
+Balbeer's Kitchen & Bar,Aurangabad,Chicalthana,10.200000000000001,Indian Rupees(Rs.),3,65,0,0,4,3.3
+Angeethi Restaurant,Aurangabad,CIDCO,7.2,Indian Rupees(Rs.),2,63,0,0,2,3.3
+Domino's Pizza,Aurangabad,CIDCO,8.4,Indian Rupees(Rs.),2,19,0,0,1,3.1
+Hotel Laadli,Aurangabad,CIDCO,4.2,Indian Rupees(Rs.),2,46,0,0,2,3.4
+Indiana Veg Restaurant,Aurangabad,CIDCO,5.4,Indian Rupees(Rs.),2,75,0,0,4,3.4
+Madhuban Restaurant - Welcome Hotel Rama International,Aurangabad,CIDCO,21.6,Indian Rupees(Rs.),4,94,0,0,5,3.4
+Mauj Restaurant,Aurangabad,CIDCO,6.0,Indian Rupees(Rs.),2,47,0,0,4,3.3
+Naivedya,Aurangabad,CIDCO,6.0,Indian Rupees(Rs.),2,71,0,0,1,3.4
+d' Curry House,Aurangabad,"Hotel Green Olive, Nirala Bazar",12.0,Indian Rupees(Rs.),3,73,0,0,4,3.6
+Mokoholic Juice Bar,Aurangabad,Mondha,3.6,Indian Rupees(Rs.),1,21,0,0,2,3.5
+Ashoka's Veg Restaurant,Aurangabad,Nirala Bazar,4.8,Indian Rupees(Rs.),2,46,0,0,3,3.3
+Kareem's Fine Dining,Aurangabad,Nirala Bazar,8.4,Indian Rupees(Rs.),2,45,0,0,2,3.3
+That Baat,Aurangabad,Nirala Bazar,5.4,Indian Rupees(Rs.),2,34,0,0,1,3.4
+Bhoj Restaurant,Aurangabad,Nirala Bazar,5.4,Indian Rupees(Rs.),2,89,0,0,1,3.7
+Downside Up,Aurangabad,Nyay Nagar,4.8,Indian Rupees(Rs.),2,8,0,0,3,3.2
+Kareem's Kabab & Biryani,Aurangabad,"Prozone Mall, Chicalthana",7.8,Indian Rupees(Rs.),2,39,0,0,1,3.4
+Great Sagar Restaurant,Aurangabad,Shahgunj,7.2,Indian Rupees(Rs.),2,74,0,0,2,3.3
+Kailash Restaurant,Aurangabad,Usmanpura,5.4,Indian Rupees(Rs.),2,76,0,0,4,3.3
+Yalla Yalla,Aurangabad,Usmanpura,6.0,Indian Rupees(Rs.),2,71,0,0,2,3.3
+Sultans of Spice,Bangalore,"BluPetal Hotel, Koramangala",15.6,Indian Rupees(Rs.),3,2416,1,1,2,4.1
+The Fatty Bao - Asian Gastro Bar,Bangalore,Indiranagar,28.8,Indian Rupees(Rs.),4,2369,1,1,1,4.7
+Toit,Bangalore,Indiranagar,24.0,Indian Rupees(Rs.),4,10934,0,0,3,4.8
+Three Dots & A Dash,Bangalore,Indiranagar,15.6,Indian Rupees(Rs.),3,1354,1,0,2,3.9
+Bombay Brasserie,Bangalore,Indiranagar,18.0,Indian Rupees(Rs.),3,231,0,1,1,4.2
+Glen's Bakehouse,Bangalore,Indiranagar,9.6,Indian Rupees(Rs.),2,3533,0,0,3,4.0
+Onesta,Bangalore,Indiranagar,7.2,Indian Rupees(Rs.),2,1413,0,1,3,4.3
+Onesta,Bangalore,JP Nagar,7.2,Indian Rupees(Rs.),2,781,0,0,3,4.6
+ECHOES Koramangala,Bangalore,Koramangala 5th Block,11.4,Indian Rupees(Rs.),2,276,0,0,6,4.7
+Truffles,Bangalore,Koramangala 5th Block,9.6,Indian Rupees(Rs.),2,9667,0,1,3,4.7
+The Black Pearl,Bangalore,Koramangala 5th Block,16.8,Indian Rupees(Rs.),3,5385,1,0,3,4.1
+Eat Street,Bangalore,Koramangala 6th Block,4.8,Indian Rupees(Rs.),1,753,0,1,5,4.3
+Koramangala Social,Bangalore,Koramangala 7th Block,18.0,Indian Rupees(Rs.),3,1288,0,0,2,4.5
+AB's - Absolute Barbecues,Bangalore,Marathahalli,16.8,Indian Rupees(Rs.),3,6907,0,0,3,4.6
+Flechazo,Bangalore,Marathahalli,14.4,Indian Rupees(Rs.),3,983,1,0,3,4.4
+Onesta,Bangalore,New BEL Road,7.2,Indian Rupees(Rs.),2,627,0,0,3,4.6
+Communiti,Bangalore,Residency Road,14.4,Indian Rupees(Rs.),3,334,0,0,1,4.2
+Big Brewsky,Bangalore,Sarjapur Road,21.6,Indian Rupees(Rs.),3,5705,1,1,6,4.5
+Hoot,Bangalore,Sarjapur Road,16.8,Indian Rupees(Rs.),3,405,0,0,3,3.9
+Farzi Cafe,Bangalore,UB City,18.0,Indian Rupees(Rs.),3,754,0,0,1,4.4
+Black N White Cafe,Bhopal,Arera Colony,2.4,Indian Rupees(Rs.),1,51,0,0,3,3.3
+Maybe There,Bhopal,Arera Colony,7.2,Indian Rupees(Rs.),2,63,0,0,1,3.4
+Sagar Gaire Fast Food,Bhopal,Arera Colony,3.0,Indian Rupees(Rs.),1,427,0,0,1,4.9
+The Kasbah,Bhopal,Arera Colony,8.4,Indian Rupees(Rs.),2,126,0,0,2,3.9
+Bake N Shake,Bhopal,Arera Colony,6.0,Indian Rupees(Rs.),2,223,0,0,1,4.2
+10 Downing Street,Bhopal,"DB City, Maharana Pratap Nagar",12.0,Indian Rupees(Rs.),3,257,0,0,2,4.0
+Chi Kitchen,Bhopal,"DB City, Maharana Pratap Nagar",12.0,Indian Rupees(Rs.),3,103,0,0,1,4.0
+Pizza Hut,Bhopal,"DB City, Maharana Pratap Nagar",7.8,Indian Rupees(Rs.),2,118,0,0,1,4.1
+Kafe Kulture,Bhopal,Gulmohar Colony,7.2,Indian Rupees(Rs.),2,98,0,0,2,3.8
+Violet Hour,Bhopal,Kohefiza,6.0,Indian Rupees(Rs.),2,33,0,0,1,3.8
+Bapu Ki Kutia,Bhopal,Maharana Pratap Nagar,6.6000000000000005,Indian Rupees(Rs.),2,175,0,0,4,3.5
+Da pizzeria,Bhopal,Maharana Pratap Nagar,6.0,Indian Rupees(Rs.),2,111,0,0,3,3.6
+Papa Mexicano,Bhopal,Maharana Pratap Nagar,4.2,Indian Rupees(Rs.),2,20,0,0,3,3.6
+Bake N Shake,Bhopal,Maharana Pratap Nagar,6.0,Indian Rupees(Rs.),2,103,0,0,1,4.1
+Manohar Dairy And Restaurant,Bhopal,Maharana Pratap Nagar,4.8,Indian Rupees(Rs.),2,243,0,0,4,4.4
+Manohar Dairy And Restaurant,Bhopal,Peer Gate Area,4.8,Indian Rupees(Rs.),2,238,0,0,4,4.1
+Kebabsville - Sayaji Hotel,Bhopal,Sayaji Hotel,21.6,Indian Rupees(Rs.),4,128,0,0,1,4.3
+Indian Coffee House,Bhopal,TT Nagar,6.0,Indian Rupees(Rs.),2,161,0,0,1,3.9
+The Urban Socialite,Bhopal,TT Nagar,10.8,Indian Rupees(Rs.),3,79,0,0,3,3.8
+Bake N Shake,Bhopal,TT Nagar,6.0,Indian Rupees(Rs.),2,120,0,0,1,4.3
+Tyre Patty,Bhubaneshwar,"BMC Bhawani Mall, Sahid Nagar",6.0,Indian Rupees(Rs.),2,289,0,0,1,3.9
+Silver Streak,Bhubaneshwar,"BMC Bhawani Mall, Sahid Nagar",6.6000000000000005,Indian Rupees(Rs.),2,379,0,0,1,4.1
+Barbeque Nation,Bhubaneshwar,Chandrasekharpur,14.4,Indian Rupees(Rs.),3,154,0,0,5,4.6
+Central Perk 7,Bhubaneshwar,Chandrasekharpur,7.2,Indian Rupees(Rs.),2,145,0,0,3,4.5
+The Chicken Dinesty,Bhubaneshwar,Chandrasekharpur,6.0,Indian Rupees(Rs.),2,247,0,0,3,3.9
+Taste Of China,Bhubaneshwar,Chandrasekharpur,6.0,Indian Rupees(Rs.),2,145,0,0,1,4.0
+Michael's Kitchen,Bhubaneshwar,Gajapati Nagar,10.200000000000001,Indian Rupees(Rs.),2,118,0,0,3,3.7
+Mamma Mia - Mayfair Lagoon,Bhubaneshwar,"Mayfair Lagoon, Jayadev Vihar",16.8,Indian Rupees(Rs.),3,256,0,0,4,4.1
+99 North Restaurant,Bhubaneshwar,Patia,5.4,Indian Rupees(Rs.),1,173,0,0,2,3.6
+Adda,Bhubaneshwar,Patia,7.2,Indian Rupees(Rs.),2,424,0,0,4,3.8
+Chill Ummm,Bhubaneshwar,Patia,5.4,Indian Rupees(Rs.),1,338,0,0,3,3.7
+Lal Qila,Bhubaneshwar,Patia,6.0,Indian Rupees(Rs.),2,228,0,0,3,3.7
+Richard's Kitchen & Coffee Bar,Bhubaneshwar,Patia,5.4,Indian Rupees(Rs.),1,253,0,0,4,3.8
+Aangan Horizon,Bhubaneshwar,Patia,10.8,Indian Rupees(Rs.),2,90,0,0,3,4.0
+Brewberrys The Coffee Bar,Bhubaneshwar,Patia,4.8,Indian Rupees(Rs.),1,197,0,0,1,4.0
+Chai Break,Bhubaneshwar,Patia,9.6,Indian Rupees(Rs.),2,69,0,0,4,4.3
+JUGAAD JN.,Bhubaneshwar,Patia,3.6,Indian Rupees(Rs.),1,199,0,0,2,4.1
+Cha cTea,Bhubaneshwar,Sahid Nagar,6.0,Indian Rupees(Rs.),2,56,0,0,2,3.8
+Food Fever,Bhubaneshwar,Sahid Nagar,10.8,Indian Rupees(Rs.),2,49,0,0,2,4.2
+Mainland China,Bhubaneshwar,"The Crown, Nayapalli",18.0,Indian Rupees(Rs.),3,345,0,0,1,4.3
+Eram Rooftop,Bhubaneshwar,Unit 4,4.8,Indian Rupees(Rs.),1,89,0,0,2,3.5
+The Night Factory,Chandigarh,Chandigarh Industrial Area,10.200000000000001,Indian Rupees(Rs.),2,665,0,1,4,3.7
+Brooklyn Central,Chandigarh,"Elante Mall, Chandigarh Industrial Area",19.2,Indian Rupees(Rs.),3,676,0,0,2,4.2
+Chili's,Chandigarh,"Elante Mall, Chandigarh Industrial Area",16.8,Indian Rupees(Rs.),3,970,0,1,3,4.3
+Kylin Experience,Chandigarh,"Elante Mall, Chandigarh Industrial Area",19.2,Indian Rupees(Rs.),3,300,0,0,6,4.1
+Mocha,Chandigarh,"Elante Mall, Chandigarh Industrial Area",16.8,Indian Rupees(Rs.),3,428,0,0,4,4.0
+Pirates of Grill,Chandigarh,"Elante Mall, Chandigarh Industrial Area",14.4,Indian Rupees(Rs.),3,1022,0,0,3,4.0
+Barbeque Nation,Chandigarh,Sector 26,15.6,Indian Rupees(Rs.),3,1450,0,0,2,4.5
+TGI Friday's,Chandigarh,Sector 26,21.6,Indian Rupees(Rs.),3,228,0,0,2,4.3
+Pal Dhaba,Chandigarh,Sector 28,8.4,Indian Rupees(Rs.),2,982,0,0,1,3.8
+Midnight Chef,Chandigarh,Sector 35,12.0,Indian Rupees(Rs.),3,502,0,1,5,3.4
+Nik Baker's,Chandigarh,Sector 35,7.8,Indian Rupees(Rs.),2,698,0,0,3,4.1
+OvenFresh,Chandigarh,Sector 35,7.8,Indian Rupees(Rs.),2,397,0,0,2,4.1
+Super Donuts,Chandigarh,Sector 35,5.4,Indian Rupees(Rs.),1,265,0,1,4,4.0
+Taco Bell,Chandigarh,Sector 35,7.2,Indian Rupees(Rs.),2,252,0,1,2,4.2
+Karim's,Chandigarh,Sector 7,9.6,Indian Rupees(Rs.),2,86,0,0,2,3.3
+Virgin Courtyard,Chandigarh,Sector 7,26.400000000000002,Indian Rupees(Rs.),4,817,0,0,1,4.4
+Burgrill,Chandigarh,Sector 8,6.0,Indian Rupees(Rs.),2,249,0,1,2,4.5
+Uncle Jack's,Chandigarh,Sector 8,7.2,Indian Rupees(Rs.),2,356,0,0,2,4.0
+That Madras Place,Chennai,Adyar,9.6,Indian Rupees(Rs.),2,1810,1,1,3,4.2
+Haunted,Chennai,Anna Nagar East,9.6,Indian Rupees(Rs.),2,519,1,1,3,3.8
+Pantry d'or,Chennai,Anna Nagar East,9.0,Indian Rupees(Rs.),2,1504,1,1,4,4.4
+Palmshore,Chennai,Ashok Nagar,10.200000000000001,Indian Rupees(Rs.),2,841,1,1,4,4.2
+Chili's,Chennai,"Express Avenue Mall,  Royapettah",20.400000000000002,Indian Rupees(Rs.),3,1262,1,1,4,4.8
+Writer's Cafe,Chennai,Gopalapuram,5.4,Indian Rupees(Rs.),1,191,0,1,2,4.2
+Fusilli Reasons,Chennai,Kilpauk,4.2,Indian Rupees(Rs.),1,1510,0,0,1,4.6
+Ciclo Cafe,Chennai,Kotturpuram,13.200000000000001,Indian Rupees(Rs.),3,1004,0,0,2,4.1
+Kaidi Kitchen,Chennai,Mylapore,18.0,Indian Rupees(Rs.),3,1820,1,1,5,4.0
+Bombay Brasserie,Chennai,Nungambakkam,14.4,Indian Rupees(Rs.),3,1753,1,1,1,4.6
+Maplai,Chennai,Nungambakkam,12.0,Indian Rupees(Rs.),3,1714,1,0,2,4.2
+Paradise,Chennai,Perungudi,10.8,Indian Rupees(Rs.),2,1317,0,1,2,3.8
+L'amandier,Chennai,RA Puram,14.4,Indian Rupees(Rs.),3,1607,1,1,3,4.3
+Palmshore,Chennai,Ramapuram,10.200000000000001,Indian Rupees(Rs.),2,645,1,1,4,4.4
+Palmshore,Chennai,Santhome,10.200000000000001,Indian Rupees(Rs.),2,742,1,1,4,4.3
+Basil With A Twist,Chennai,T. Nagar,18.0,Indian Rupees(Rs.),3,1210,1,1,7,4.5
+Barbeque Nation,Chennai,T. Nagar,24.0,Indian Rupees(Rs.),4,3848,0,0,2,4.4
+AB's - Absolute Barbecues,Chennai,Velachery,19.2,Indian Rupees(Rs.),3,859,0,0,3,4.9
+Coal Barbecues,Chennai,Velachery,16.8,Indian Rupees(Rs.),3,1267,0,0,4,4.6
+Pind,Chennai,Velachery,10.8,Indian Rupees(Rs.),2,2272,1,0,2,4.0
+Kuchi n Kream,Coimbatore,Gandhipuram,9.6,Indian Rupees(Rs.),3,202,0,1,3,4.6
+Haribhavanam Hotel,Coimbatore,Peelamedu,7.2,Indian Rupees(Rs.),2,318,0,0,3,3.9
+Kites Cafe,Coimbatore,Peelamedu,4.8,Indian Rupees(Rs.),2,124,0,1,1,3.8
+Zucca Pizzeria,Coimbatore,Peelamedu,7.2,Indian Rupees(Rs.),2,274,0,1,1,3.5
+Burger Ka Baap,Coimbatore,Peelamedu,6.0,Indian Rupees(Rs.),2,147,0,0,1,4.3
+The Cascade Restaurant,Coimbatore,Peelamedu,14.4,Indian Rupees(Rs.),3,243,0,1,1,4.1
+24 Plus Cafe & Restaurant,Coimbatore,Podanur,5.4,Indian Rupees(Rs.),2,24,0,0,4,3.8
+Valarmathi Kongunaatu Samayal,Coimbatore,Race Course,4.2,Indian Rupees(Rs.),2,380,0,0,2,4.5
+Bird On Tree,Coimbatore,Race Course,14.4,Indian Rupees(Rs.),3,221,0,0,5,3.8
+Tim's Bistro,Coimbatore,Race Course,8.4,Indian Rupees(Rs.),2,85,0,1,2,3.9
+Batlivala & Khanabhoy,Coimbatore,Race Course,14.4,Indian Rupees(Rs.),3,40,0,0,2,4.2
+Cafe Totaram,Coimbatore,Race Course,7.2,Indian Rupees(Rs.),2,132,0,1,2,4.0
+Cream Centre,Coimbatore,Race Course,12.0,Indian Rupees(Rs.),3,203,0,0,4,4.0
+On The Go,Coimbatore,Race Course,18.0,Indian Rupees(Rs.),4,215,0,0,3,4.0
+Sree Annapoorna,Coimbatore,RS Puram,4.8,Indian Rupees(Rs.),2,225,0,0,3,4.3
+That's Y Food,Coimbatore,RS Puram,16.8,Indian Rupees(Rs.),3,299,0,0,2,4.2
+CakeBee,Coimbatore,Saibaba Colony,4.2,Indian Rupees(Rs.),2,200,0,1,2,4.9
+Yari,Coimbatore,Saibaba Colony,8.4,Indian Rupees(Rs.),2,221,0,0,3,4.2
+Cream Stone,Coimbatore,"SMS Hotel, Peelamedu",3.6,Indian Rupees(Rs.),1,161,0,0,2,4.3
+Barbeque Nation,Coimbatore,Town Hall,16.8,Indian Rupees(Rs.),3,505,0,0,3,4.4
+The Punjabi Essence Restaurant,Dehradun,Chukkuwala,9.6,Indian Rupees(Rs.),3,102,0,0,2,3.6
+Tirupati Restaurant,Dehradun,Chukkuwala,6.0,Indian Rupees(Rs.),3,115,0,0,3,3.8
+Anandam,Dehradun,Hathibarkala Salwala,7.8,Indian Rupees(Rs.),3,141,0,0,6,3.9
+Town Table Restaurant,Dehradun,Hathibarkala Salwala,12.0,Indian Rupees(Rs.),4,173,0,0,3,3.9
+Kalsang Friends Corner,Dehradun,Hathibarkala Salwala,9.0,Indian Rupees(Rs.),3,406,0,0,3,4.2
+The Great Indian Pub,Dehradun,Jakhan,18.0,Indian Rupees(Rs.),4,50,0,0,1,4.9
+BMG - All Day Dining,Dehradun,Jakhan,0.0,Indian Rupees(Rs.),1,63,0,0,3,4.3
+Punjab Grill,Dehradun,Jakhan,15.0,Indian Rupees(Rs.),4,98,0,0,2,4.0
+TBistro,Dehradun,Karanpur,6.6000000000000005,Indian Rupees(Rs.),3,230,0,0,2,3.8
+Y Cafe & Restaurant,Dehradun,Karanpur,6.0,Indian Rupees(Rs.),3,94,0,0,1,4.0
+Eddie's Patisserie,Dehradun,Krishna Nagar,4.2,Indian Rupees(Rs.),2,64,0,0,1,4.1
+First Gear Cafe,Dehradun,Malsi,8.4,Indian Rupees(Rs.),3,131,0,0,2,3.9
+Dunkin Donuts,Dehradun,"Pacific Mall, Jakhan",7.2,Indian Rupees(Rs.),3,101,0,0,2,3.9
+Doon Darbar,Dehradun,Paltan Bazaar,7.2,Indian Rupees(Rs.),3,121,0,0,2,3.9
+Razzmatazz,Dehradun,Race Course,4.8,Indian Rupees(Rs.),2,39,0,0,1,3.9
+Barbeque Nation,Dehradun,Rajpur,19.2,Indian Rupees(Rs.),4,66,0,0,4,4.4
+Black Pepper Restaurant,Dehradun,Rajpur,14.4,Indian Rupees(Rs.),4,175,0,0,2,4.0
+Cafe Marigold,Dehradun,Rajpur,6.0,Indian Rupees(Rs.),3,104,0,0,3,4.1
+Jalapenos,Dehradun,Rajpur,6.0,Indian Rupees(Rs.),3,68,0,0,2,4.2
+Kalsang AMA Cafe,Dehradun,Rajpur,7.2,Indian Rupees(Rs.),3,89,0,0,1,4.2
+Desire Foods,Faridabad,Badarpur Border,3.0,Indian Rupees(Rs.),1,4,0,0,3,2.9
+Knight Rock,Faridabad,Badarpur Border,6.0,Indian Rupees(Rs.),2,16,0,0,2,2.8
+Punjab Restaurant,Faridabad,Badarpur Border,1.8,Indian Rupees(Rs.),1,8,0,0,1,2.8
+Raju Dhaba,Faridabad,Badarpur Border,1.8,Indian Rupees(Rs.),1,8,0,0,1,2.9
+Rakheja Bakery,Faridabad,Badarpur Border,1.2,Indian Rupees(Rs.),1,7,0,0,1,2.8
+Snax Points,Faridabad,Badarpur Border,3.6,Indian Rupees(Rs.),1,4,0,0,3,3.0
+Cafe And More,Faridabad,Charmwood Village,3.6,Indian Rupees(Rs.),1,4,0,0,2,2.9
+Green Chick Chop,Faridabad,Charmwood Village,4.2,Indian Rupees(Rs.),1,7,0,0,3,3.0
+Kolkata Hot Kathi Rolls,Faridabad,Charmwood Village,3.6,Indian Rupees(Rs.),1,11,0,0,2,2.9
+Kebab Xpress,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",7.2,Indian Rupees(Rs.),2,49,0,1,2,2.8
+McDonald's,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",6.0,Indian Rupees(Rs.),2,58,0,0,2,3.4
+Suruchi,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",8.4,Indian Rupees(Rs.),2,233,0,0,4,3.4
+Berco's,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",13.200000000000001,Indian Rupees(Rs.),3,508,0,1,2,3.8
+Dunkin' Donuts,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",7.2,Indian Rupees(Rs.),2,98,0,1,3,3.6
+The Chocolate Room,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",10.8,Indian Rupees(Rs.),2,59,0,1,2,3.6
+KFC,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",6.0,Indian Rupees(Rs.),2,57,0,1,3,2.1
+Barbeque Nation,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",19.2,Indian Rupees(Rs.),3,299,0,0,1,4.0
+Yo! China,Faridabad,"Crown Interiorz Mall, Sector 35, Faridabad",15.6,Indian Rupees(Rs.),3,239,0,1,1,4.1
+Giani's,Faridabad,"Crown Plaza Mall, Sector 15, Faridabad",4.8,Indian Rupees(Rs.),1,16,0,0,2,3.2
+Momo-Cha,Faridabad,"Crown Plaza Mall, Sector 15, Faridabad",2.4,Indian Rupees(Rs.),1,16,0,1,1,2.7
+Shree Rathnam,Faridabad,"Crown Plaza Mall, Sector 15, Faridabad",9.6,Indian Rupees(Rs.),2,48,0,1,3,3.4
+Mirage Restro Bar,Faridabad,"Crown Plaza Mall, Sector 15, Faridabad",12.0,Indian Rupees(Rs.),3,25,1,0,2,2.4
+Gelato Vinto,Faridabad,"Eldeco Station 1 Mall, Sector 12, Faridabad",3.0,Indian Rupees(Rs.),1,12,0,0,2,2.8
+Cakes 'n Bakes - Park Plaza,Faridabad,"Park Plaza, Sector 21, Faridabad",12.0,Indian Rupees(Rs.),3,15,0,0,1,3.0
+Cafe Bite,Faridabad,"Parsavnath City Mall, Sector 12, Faridabad",6.0,Indian Rupees(Rs.),2,19,0,0,1,3.2
+Cafe Light,Faridabad,"Parsavnath City Mall, Sector 12, Faridabad",6.0,Indian Rupees(Rs.),2,8,0,0,3,2.8
+Momo-Cha,Faridabad,Sector 10,5.4,Indian Rupees(Rs.),1,20,0,0,2,2.8
+Oregano India,Faridabad,Sector 10,6.0,Indian Rupees(Rs.),2,11,0,0,3,3.1
+Sagar Bakery,Faridabad,Sector 10,1.8,Indian Rupees(Rs.),1,11,0,0,1,3.0
+Smugglers,Faridabad,Sector 10,5.4,Indian Rupees(Rs.),1,7,0,1,1,3.1
+Welcome,Faridabad,Sector 10,8.4,Indian Rupees(Rs.),2,13,1,0,2,2.9
+Chimney,Faridabad,Sector 11,9.6,Indian Rupees(Rs.),2,25,1,1,3,3.3
+Chopstick,Faridabad,Sector 11,3.6,Indian Rupees(Rs.),1,22,0,0,1,3.0
+Hot & Tasty Chinese Food,Faridabad,Sector 11,5.4,Indian Rupees(Rs.),1,26,0,0,2,2.6
+Sanjha Chulha,Faridabad,Sector 11,8.4,Indian Rupees(Rs.),2,16,0,1,2,2.9
+Frontier,Faridabad,Sector 12,2.4,Indian Rupees(Rs.),1,7,0,0,1,2.9
+Oxy Lounge,Faridabad,Sector 12,18.0,Indian Rupees(Rs.),3,28,1,1,3,3.1
+Al Bake,Faridabad,Sector 15,7.2,Indian Rupees(Rs.),2,31,0,1,2,3.2
+Anupam Sweet,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,70,0,0,5,3.4
+Cafe Coffee Day,Faridabad,Sector 15,5.4,Indian Rupees(Rs.),1,67,0,0,1,3.3
+Chicago Pizza,Faridabad,Sector 15,7.2,Indian Rupees(Rs.),2,35,0,0,1,2.7
+Crispy Crust,Faridabad,Sector 15,6.0,Indian Rupees(Rs.),2,22,0,1,3,3.4
+Frontier,Faridabad,Sector 15,2.4,Indian Rupees(Rs.),1,17,0,0,1,3.3
+Gulab,Faridabad,Sector 15,7.2,Indian Rupees(Rs.),2,39,0,1,5,2.6
+Hunger Cure Express,Faridabad,Sector 15,6.0,Indian Rupees(Rs.),2,35,0,0,2,3.3
+Maitre Patissier,Faridabad,Sector 15,6.0,Indian Rupees(Rs.),2,35,0,0,1,3.4
+Momo-Cha,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,32,0,0,2,2.7
+Nirula's,Faridabad,Sector 15,11.4,Indian Rupees(Rs.),2,14,0,0,4,2.6
+The Grub House,Faridabad,Sector 15,7.2,Indian Rupees(Rs.),2,17,0,0,4,2.7
+Twenty Four Seven,Faridabad,Sector 15,3.6,Indian Rupees(Rs.),1,35,0,0,2,3.4
+Cafe Parmesan,Faridabad,Sector 15,12.0,Indian Rupees(Rs.),3,799,0,0,1,4.5
+Briosca,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,62,0,1,2,3.6
+Burger Point,Faridabad,Sector 15,3.6,Indian Rupees(Rs.),1,24,0,1,2,3.5
+Cafe Grub Up,Faridabad,Sector 15,10.8,Indian Rupees(Rs.),2,134,1,0,5,3.8
+Cakes At Bhawanas,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,26,0,0,1,3.5
+Chaudhary Bhojnalaya,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,93,0,0,1,3.6
+Chickenette,Faridabad,Sector 15,7.8,Indian Rupees(Rs.),2,280,0,0,4,3.7
+Giani,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,70,0,0,2,3.6
+Green Chick Chop,Faridabad,Sector 15,4.2,Indian Rupees(Rs.),1,31,0,0,3,3.5
+Hash Stix,Faridabad,Sector 15,3.0,Indian Rupees(Rs.),1,25,0,0,1,3.6
+Juice On Go,Faridabad,Sector 15,1.8,Indian Rupees(Rs.),1,18,0,0,2,3.5
+Keventers,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,27,0,0,1,3.6
+MD's Kebabs & Curries,Faridabad,Sector 15,9.0,Indian Rupees(Rs.),2,27,0,1,3,3.8
+Perfect Bake,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,39,0,0,2,3.5
+Perfect Bake,Faridabad,Sector 15,4.8,Indian Rupees(Rs.),1,126,0,0,2,3.6
+Sethi's Delicacy,Faridabad,Sector 15,1.8,Indian Rupees(Rs.),1,75,0,0,2,3.8
+Subway,Faridabad,Sector 15,6.0,Indian Rupees(Rs.),2,143,0,0,4,3.5
+Cafí© Bogchi,Faridabad,Sector 15,7.8,Indian Rupees(Rs.),2,153,0,1,4,4.1
+Ashoka Restaurant,Faridabad,Sector 16,4.8,Indian Rupees(Rs.),1,43,0,0,1,2.9
+Baskin Robbins,Faridabad,Sector 16,3.6,Indian Rupees(Rs.),1,4,0,1,1,2.9
+China Hot Pot,Faridabad,Sector 16,4.8,Indian Rupees(Rs.),1,25,0,0,2,2.5
+Handi Chhadeyan Di,Faridabad,Sector 16,4.8,Indian Rupees(Rs.),1,26,0,0,1,3.1
+Hungrill,Faridabad,Sector 16,6.0,Indian Rupees(Rs.),2,4,0,0,3,3.0
+Kant Khana Khazana,Faridabad,Sector 16,3.0,Indian Rupees(Rs.),1,22,0,0,1,3.4
+Open Yard,Faridabad,Sector 16,9.6,Indian Rupees(Rs.),2,14,1,0,3,3.3
+Recipe Badshah,Faridabad,Sector 16,3.6,Indian Rupees(Rs.),1,8,0,0,1,3.1
+The Chai Cafe,Faridabad,Sector 16,4.8,Indian Rupees(Rs.),1,8,0,0,2,3.1
+Eat N Treat,Faridabad,Sector 17,4.8,Indian Rupees(Rs.),1,20,0,0,2,2.8
+Hotel Ekant,Faridabad,Sector 17,8.4,Indian Rupees(Rs.),2,39,0,0,3,2.7
+Momo-Cha,Faridabad,Sector 17,7.2,Indian Rupees(Rs.),2,56,0,1,2,2.7
+Paradise Inn,Faridabad,Sector 17,6.0,Indian Rupees(Rs.),2,43,0,0,3,2.7
+Red Chilli,Faridabad,Sector 17,3.6,Indian Rupees(Rs.),1,9,0,0,1,2.8
+Shiv Restaurant,Faridabad,Sector 17,4.8,Indian Rupees(Rs.),1,20,0,0,1,2.7
+Sohan Sweets & Namkeen,Faridabad,Sector 17,1.2,Indian Rupees(Rs.),1,41,0,0,1,3.2
+The Binge Box Cafe,Faridabad,Sector 17,6.0,Indian Rupees(Rs.),2,18,0,0,1,3.4
+Tmos Moving Feast,Faridabad,Sector 17,8.4,Indian Rupees(Rs.),2,76,0,1,2,3.3
+Parkash Dhaba,Faridabad,Sector 19,2.4,Indian Rupees(Rs.),1,6,0,0,2,3.0
+Sanjha Chulha,Faridabad,Sector 19,8.4,Indian Rupees(Rs.),2,219,0,1,2,3.3
+Hareram Bikanerzaika,Faridabad,Sector 21,2.4,Indian Rupees(Rs.),1,11,0,0,2,2.8
+Kulcha Paaji,Faridabad,Sector 21,1.2,Indian Rupees(Rs.),1,12,0,0,1,3.1
+Shree Bikaner Misthan Bhandar,Faridabad,Sector 21,4.2,Indian Rupees(Rs.),1,13,0,0,3,2.8
+"The Hub - Gourmet, Bakers & More",Faridabad,Sector 21,2.4,Indian Rupees(Rs.),1,7,0,0,2,3.0
+Funk House Cafe,Faridabad,Sector 28,7.8,Indian Rupees(Rs.),2,15,0,1,3,2.6
+Shiksha Fast Food,Faridabad,Sector 28,2.4,Indian Rupees(Rs.),1,5,0,0,2,2.9
+Lalit Kathi Rolls Momos,Faridabad,Sector 29,1.2,Indian Rupees(Rs.),1,9,0,0,1,3.1
+Butter & Grace,Faridabad,Sector 31,8.4,Indian Rupees(Rs.),2,7,0,1,4,3.1
+Green Chick Chop,Faridabad,Sector 31,4.2,Indian Rupees(Rs.),1,9,0,0,3,3.1
+Snacks Bar,Faridabad,Sector 31,4.2,Indian Rupees(Rs.),1,4,0,0,1,2.9
+Anupama Sweets & Family Restaurant,Faridabad,Sector 34,4.8,Indian Rupees(Rs.),1,28,0,1,5,2.7
+Shree Rathnam,Faridabad,Sector 34,9.6,Indian Rupees(Rs.),2,29,0,0,3,2.7
+Desi Tadka,Faridabad,Sector 37,6.0,Indian Rupees(Rs.),2,6,0,0,3,3.0
+Destination Live,Faridabad,Sector 37,6.0,Indian Rupees(Rs.),2,12,1,0,3,3.3
+Kay's Bake Land,Faridabad,Sector 37,1.8,Indian Rupees(Rs.),1,19,0,0,2,3.1
+Kay's Food Land,Faridabad,Sector 37,1.2,Indian Rupees(Rs.),1,14,0,0,2,3.1
+Laziz Restaurant,Faridabad,Sector 37,7.2,Indian Rupees(Rs.),2,11,0,0,2,2.8
+Le Chef Restro Bar,Faridabad,Sector 37,12.0,Indian Rupees(Rs.),3,70,1,0,2,2.7
+Republic of Chicken,Faridabad,Sector 37,4.8,Indian Rupees(Rs.),1,18,0,0,2,3.1
+Tanishka Restaurant & Caterers,Faridabad,Sector 37,3.6,Indian Rupees(Rs.),1,14,0,0,2,2.9
+The Tandoori Times,Faridabad,Sector 37,6.0,Indian Rupees(Rs.),2,48,0,0,1,2.7
+Twist of Italy,Faridabad,Sector 37,4.2,Indian Rupees(Rs.),1,52,0,0,2,3.6
+Cravings,Faridabad,Sector 41,6.0,Indian Rupees(Rs.),2,4,0,0,3,3.0
+Domino's Pizza,Faridabad,Sector 43,8.4,Indian Rupees(Rs.),2,10,0,0,2,2.9
+Green Chick Chop,Faridabad,Sector 43,4.2,Indian Rupees(Rs.),1,5,0,0,3,3.1
+Punjabi Culture,Faridabad,Sector 43,6.0,Indian Rupees(Rs.),2,4,0,0,2,2.9
+Three Olives,Faridabad,Sector 43,6.6000000000000005,Indian Rupees(Rs.),2,4,0,0,2,2.9
+Hunger Cure,Faridabad,Sector 46,8.4,Indian Rupees(Rs.),2,47,0,0,2,3.2
+Sanjha Chulha,Faridabad,Sector 46,8.4,Indian Rupees(Rs.),2,79,0,1,2,2.5
+Queens Cakes,Faridabad,Sector 46,2.4,Indian Rupees(Rs.),1,29,0,0,1,3.5
+Invitation Restaurant,Faridabad,Sector 7,6.0,Indian Rupees(Rs.),2,17,0,1,4,2.7
+Kaushik Bakery,Faridabad,Sector 7,2.4,Indian Rupees(Rs.),1,9,0,0,1,3.0
+Rama Vaishnav Bhojnalaya,Faridabad,Sector 7,3.0,Indian Rupees(Rs.),1,7,0,0,2,3.0
+Shiv Saras Vyanjan,Faridabad,Sector 7,1.2,Indian Rupees(Rs.),1,5,0,0,1,2.9
+Shree Bikaner Misthan Bhandar,Faridabad,Sector 7,3.6,Indian Rupees(Rs.),1,8,0,0,5,3.0
+Shree Bikaner Misthan Bhandar,Faridabad,Sector 7,1.8,Indian Rupees(Rs.),1,15,0,0,2,3.1
+Standard Family Restaurant,Faridabad,Sector 7,5.4,Indian Rupees(Rs.),1,16,0,0,1,2.9
+The Hunger End,Faridabad,Sector 7,6.0,Indian Rupees(Rs.),2,4,0,0,2,3.0
+Anupam Sweets & Restaurant,Faridabad,Sector 86,5.4,Indian Rupees(Rs.),1,10,0,1,3,3.0
+Caramel,Faridabad,Sector 86,7.2,Indian Rupees(Rs.),2,9,0,0,3,2.9
+Chaska Restaurant,Faridabad,Sector 86,7.8,Indian Rupees(Rs.),2,24,0,0,2,3.2
+Club Pizzeria,Faridabad,Sector 86,6.6000000000000005,Indian Rupees(Rs.),2,19,0,1,1,3.4
+Gupha,Faridabad,Sector 86,6.0,Indian Rupees(Rs.),2,8,0,0,2,2.9
+Indian Gourmet,Faridabad,Sector 86,5.4,Indian Rupees(Rs.),1,8,0,0,3,3.0
+Tandoori Zaaika's,Faridabad,Sector 86,6.0,Indian Rupees(Rs.),2,39,0,1,2,3.2
+TCD Cake & Bake,Faridabad,Sector 86,3.6,Indian Rupees(Rs.),1,10,0,0,2,3.1
+The Grill Darbar,Faridabad,Sector 86,6.0,Indian Rupees(Rs.),2,17,0,0,3,3.3
+Urban Cuisine,Faridabad,Sector 86,6.0,Indian Rupees(Rs.),2,37,0,1,3,3.4
+Mister Mughal,Faridabad,Sector 86,7.2,Indian Rupees(Rs.),2,33,0,1,1,3.5
+The Hub,Faridabad,Sector 9,2.4,Indian Rupees(Rs.),1,9,0,0,2,3.1
+Aggarwal Sweets Centre,Faridabad,Suraj Kund,1.2,Indian Rupees(Rs.),1,4,0,0,3,2.9
+Bawarchi,Faridabad,Suraj Kund,6.6000000000000005,Indian Rupees(Rs.),2,14,0,0,3,3.0
+D ART of Flavour,Faridabad,Suraj Kund,6.0,Indian Rupees(Rs.),2,13,0,0,2,2.8
+Italia Cafe by Aura,Faridabad,Suraj Kund,4.8,Indian Rupees(Rs.),1,5,0,0,2,2.8
+Pizza Street,Faridabad,Suraj Kund,6.6000000000000005,Indian Rupees(Rs.),2,12,0,1,2,2.6
