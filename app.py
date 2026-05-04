@@ -19,7 +19,7 @@ def load_assets():
         scaler = joblib.load('scaler.pkl')
         
         # 🚨 IMPORTANT: Change this to the exact name of your FULL dataset file (the one with 7,403 rows)
-        df = pd.read_csv('zomato_full_dataset.csv', encoding='latin-1') 
+        df = pd.read_csv('cleaned_sample.csv', encoding='latin-1') 
         
         # Data Safety: Ensure Cuisines and Cities are strings and handle missing data
         if 'Cuisines' in df.columns:
