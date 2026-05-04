@@ -13,20 +13,23 @@ if 'shortlist' not in st.session_state:
 
 @st.cache_resource
 def load_assets():
-    """Loads the trained model, scaler, and cleaned dataset into cache."""
+    """Loads the trained model, scaler, and the FULL dataset into cache."""
     try:
         model = joblib.load('best_model.pkl')
         scaler = joblib.load('scaler.pkl')
-        df = pd.read_csv('cleaned_sample.csv')
         
+        # 🚨 IMPORTANT: Change this to the exact name of your FULL dataset file (the one with 7,403 rows)
+        df = pd.read_csv('zomato_full_dataset.csv', encoding='latin-1') 
+        
+        # Data Safety: Ensure Cuisines and Cities are strings and handle missing data
         if 'Cuisines' in df.columns:
-            df['Cuisines'] = df['Cuisines'].fillna('Unknown')
+            df['Cuisines'] = df['Cuisines'].fillna('Unknown').astype(str)
         if 'City' in df.columns:
-            df['City'] = df['City'].fillna('Unknown')
+            df['City'] = df['City'].fillna('Unknown').astype(str)
             
         return model, scaler, df
     except FileNotFoundError as e:
-        st.error(f"Error loading assets: {e}. Please ensure model, scaler, and csv files are in the same directory.")
+        st.error(f"Error loading assets: {e}. Please ensure your full CSV dataset is in the folder.")
         st.stop()
 
 model, scaler, df = load_assets()
@@ -48,8 +51,9 @@ if mode == "🏢 Business: Strategy & Simulation":
     with col1:
         st.subheader("Operational Parameters")
         
-        cost = st.number_input("Average Cost for Two (USD $)", min_value=5, max_value=500, value=25, step=5)
+        cost = st.number_input("Average Cost for Two (USD $)", min_value=1, max_value=1000, value=25, step=5)
         
+        # Auto-calculate Price Range
         if cost < 10: price_range = 1
         elif cost < 25: price_range = 2
         elif cost < 50: price_range = 3
@@ -61,7 +65,7 @@ if mode == "🏢 Business: Strategy & Simulation":
 
         delivery = 1 if delivery_choice == "Yes" else 0
         booking = 1 if booking_choice == "Yes" else 0
-        cuisines = st.slider("Menu Diversity (Cuisine Count)", 1, 10, 2)
+        cuisines = st.slider("Menu Diversity (Cuisine Count)", 1, 15, 2)
 
     with col2:
         st.subheader("Predictive Market Outcome")
@@ -78,7 +82,7 @@ if mode == "🏢 Business: Strategy & Simulation":
             value = pred,
             domain = {'x': [0, 1], 'y': [0, 1]},
             title = {'text': "Forecasted Rating", 'font': {'size': 18}},
-            delta = {'reference': 3.5, 'increasing': {'color': "green"}, 'decreasing': {'color': "red"}}, # Comparing against average 3.5
+            delta = {'reference': 3.5, 'increasing': {'color': "green"}, 'decreasing': {'color': "red"}}, 
             number = {'font': {'size': 45}},
             gauge = {
                 'axis': {'range': [0, 5], 'tickwidth': 1, 'tickcolor': "darkblue"},
@@ -109,7 +113,7 @@ if mode == "🏢 Business: Strategy & Simulation":
                 pred_delivery = max(0.0, min(model.predict(scaler.transform(feat_delivery))[0], 5.0))
                 delta = pred_delivery - pred
                 if delta > 0.05:
-                    rev_impact = delta * 15 # Industry estimate: 1 point rating = ~15% digital revenue boost
+                    rev_impact = delta * 15 
                     st.success(f"**Growth Opportunity:** Adding Online Delivery boosts predicted rating by **+{delta:.2f}**. Industry data suggests this could drive a **~{rev_impact:.1f}% increase** in digital order volume.")
             else:
                 st.info("✔️ Digital footprint optimized. Delivery services are active.")
@@ -125,12 +129,13 @@ if mode == "🏢 Business: Strategy & Simulation":
 
         with tab2:
             st.write("Compare your simulated rating against the global average for your price bracket.")
-            market_avg = df[df['Price range'] == price_range]['Aggregate rating'].mean()
-            if pd.notna(market_avg):
-                diff = pred - market_avg
-                st.metric(label=f"Market Average (Price Tier {price_range})", value=f"{market_avg:.2f}", delta=f"{diff:.2f} vs Market")
-            else:
-                st.write("Insufficient market data for this specific configuration.")
+            if 'Price range' in df.columns and 'Aggregate rating' in df.columns:
+                market_avg = df[df['Price range'] == price_range]['Aggregate rating'].mean()
+                if pd.notna(market_avg):
+                    diff = pred - market_avg
+                    st.metric(label=f"Market Average (Price Tier {price_range})", value=f"{market_avg:.2f}", delta=f"{diff:.2f} vs Market")
+                else:
+                    st.write("Insufficient market data for this specific configuration.")
 
 # =====================================================================
 # --- MODE 2: CUSTOMER (Discovery Hub) ---
@@ -142,25 +147,28 @@ else:
     colA, colB, colC = st.columns(3, gap="medium")
     
     with colA:
+        # 🚨 FIX APPLIED: Extracting ALL valid cities dynamically
         if 'City' in df.columns:
-            cities = sorted(df['City'].unique().tolist())
+            # Filter out blanks and Unknowns, then sort alphabetically
+            valid_cities = [city.strip() for city in df['City'].unique() if city.strip() != '' and city != 'Unknown']
+            cities = sorted(valid_cities)
             selected_city = st.selectbox("📍 Global Location", ["All"] + cities, index=cities.index("Chennai") + 1 if "Chennai" in cities else 0)
         else:
             selected_city = "All"
             
         if 'Cuisines' in df.columns:
-            all_cuisines = set(c.strip() for sublist in df['Cuisines'].dropna().str.split(',') for c in sublist)
+            all_cuisines = set(c.strip() for sublist in df['Cuisines'].dropna().str.split(',') for c in sublist if c.strip() != '')
             selected_cuisine = st.selectbox("🍝 Cuisine Focus", ["All"] + sorted(list(all_cuisines)))
         else:
             selected_cuisine = "All"
 
     with colB:
-        max_budget = st.number_input("💰 Max Budget for Two (USD $)", min_value=5, max_value=200, value=60, step=5)
+        max_budget = st.number_input("💰 Max Budget for Two (USD $)", min_value=5, max_value=500, value=60, step=5)
         min_rating = st.slider("⭐ Minimum Rating Quality", 0.0, 5.0, 4.0, step=0.1)
 
     with colC:
         sort_by = st.selectbox("Sort Priority", ["Highest Quality (Rating)", "Highest Popularity (Votes)", "Best Value (Price)"])
-        st.markdown("<br>", unsafe_allow_html=True) # Spacing
+        st.markdown("<br>", unsafe_allow_html=True)
         if st.button("Clear Personal Shortlist"):
             st.session_state.shortlist = []
 
@@ -181,12 +189,12 @@ else:
     elif sort_by == "Highest Popularity (Votes)":
         matches = matches.sort_values(by="Votes", ascending=False)
     else:
-        matches = matches.sort_values(by="Average_Cost_USD", ascending=True)
+        if 'Average_Cost_USD' in matches.columns:
+            matches = matches.sort_values(by="Average_Cost_USD", ascending=True)
 
     if matches.empty:
         st.warning("No restaurants match this strict criteria. Try lowering the minimum rating or increasing the budget.")
     else:
-        # Display Market Summary Stats
         st.markdown(f"**Market Snapshot:** {len(matches)} options found. Average Cost: ${matches['Average_Cost_USD'].mean():.2f}")
         
         matches['Price (USD)'] = matches['Average_Cost_USD'].apply(lambda x: f"${x:.2f}")
@@ -196,28 +204,24 @@ else:
         display_cols = ['Restaurant Name', 'City', 'Locality', 'Cuisines', 'Aggregate rating', 'Price (USD)', 'Votes', 'Delivery']
         display_cols = [col for col in display_cols if col in matches.columns]
         
-        # Make a copy for the Data Editor to allow Shortlisting
         interactive_df = matches[display_cols].copy()
-        interactive_df.insert(0, "Shortlist", False) # Add checkbox column
+        interactive_df.insert(0, "Shortlist", False) 
 
         st.subheader("Market Results")
-        # st.data_editor allows users to click checkboxes!
         edited_df = st.data_editor(
             interactive_df,
             hide_index=True,
             use_container_width=True,
             height=350,
-            disabled=display_cols # Lock all columns EXCEPT the Shortlist checkbox
+            disabled=display_cols 
         )
 
-        # Track favorites
         new_favorites = edited_df[edited_df["Shortlist"] == True]["Restaurant Name"].tolist()
         if new_favorites:
             for fav in new_favorites:
                 if fav not in st.session_state.shortlist:
                     st.session_state.shortlist.append(fav)
 
-        # Show Shortlist Drawer
         if st.session_state.shortlist:
             with st.expander("⭐ Your Personalized Dining Shortlist", expanded=True):
                 for item in set(st.session_state.shortlist):
