@@ -1,12 +1,16 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import plotly.graph_objects as go # Added for the visual Gauge Chart
+import plotly.graph_objects as go
+import plotly.express as px
 
 # --- Setup & Configuration ---
-st.set_page_config(page_title="Zomato Global AI Dashboard", layout="wide", page_icon="🍽️")
+st.set_page_config(page_title="Zomato Global AI | Enterprise", layout="wide", page_icon="🍽️")
 
-# 1. Caching mechanism properly retained to ensure fast asset loading
+# --- Initialize Session State for Customer Favorites ---
+if 'shortlist' not in st.session_state:
+    st.session_state.shortlist = []
+
 @st.cache_resource
 def load_assets():
     """Loads the trained model, scaler, and cleaned dataset into cache."""
@@ -15,7 +19,6 @@ def load_assets():
         scaler = joblib.load('scaler.pkl')
         df = pd.read_csv('cleaned_sample.csv')
         
-        # Ensure categorical columns exist and handle NaNs for customer filtering
         if 'Cuisines' in df.columns:
             df['Cuisines'] = df['Cuisines'].fillna('Unknown')
         if 'City' in df.columns:
@@ -23,180 +26,199 @@ def load_assets():
             
         return model, scaler, df
     except FileNotFoundError as e:
-        st.error(f"Error loading assets: {e}. Please ensure model, scaler, and csv files are in the directory.")
+        st.error(f"Error loading assets: {e}. Please ensure model, scaler, and csv files are in the same directory.")
         st.stop()
 
 model, scaler, df = load_assets()
 
-# Sidebar Optimization
-st.sidebar.title("Select Your View")
-st.sidebar.markdown("Navigate between predicting your own restaurant's success or finding top-rated food.")
-mode = st.sidebar.radio("Choose Mode:", ["🏢 Business: Strategy & Simulation", "😋 Customer: Find My Food"])
+# --- Sidebar Navigation ---
+st.sidebar.title("Zomato Enterprise AI")
+st.sidebar.markdown("Select your workspace environment.")
+mode = st.sidebar.radio("Workspace:", ["🏢 Business: Strategy & Simulation", "😋 Customer: Discovery Hub"])
 
 # =====================================================================
 # --- MODE 1: BUSINESS OWNER (Strategy & Simulation) ---
 # =====================================================================
 if mode == "🏢 Business: Strategy & Simulation":
-    st.title("Business Strategy & Rating Predictor")
-    st.info("Adjust the features below to simulate how operational changes impact your global Zomato rating.")
+    st.title("Business Strategy & Predictive Analytics")
+    st.info("Simulate operational changes, forecast ratings, and measure estimated market impact.")
 
-    col1, col2 = st.columns([1, 1.2], gap="large")
+    col1, col2 = st.columns([1, 1.5], gap="large")
     
     with col1:
-        st.subheader("Restaurant Configuration")
+        st.subheader("Operational Parameters")
         
-        # Feature 1: Cost (Consolidated to automatically calculate Price Category)
-        cost = st.number_input(
-            "Average Cost for Two (Standardized USD $)", 
-            min_value=5, max_value=500, value=25, step=5,
-            help="We use a unified USD baseline to compare your pricing against global standards."
-        )
+        cost = st.number_input("Average Cost for Two (USD $)", min_value=5, max_value=500, value=25, step=5)
         
-        # Auto-calculate Price Range based on standard Zomato logic to reduce user friction
         if cost < 10: price_range = 1
         elif cost < 25: price_range = 2
         elif cost < 50: price_range = 3
         else: price_range = 4
 
-        # Feature 2: Popularity (Renamed to Target Votes to reflect it's a long-term goal)
-        votes = st.slider(
-            "Simulated Popularity (Target Votes)", 
-            0, 5000, 100, step=50,
-            help="Simulate the impact of gaining more customer reviews over time."
-        )
-
-        # Feature 3 & 4: Services
-        delivery_choice = st.selectbox("Offer Online Delivery Service?", ["No", "Yes"])
+        votes = st.slider("Target Popularity (Total Votes)", 0, 5000, 100, step=50)
+        delivery_choice = st.selectbox("Offer Online Delivery?", ["No", "Yes"])
         booking_choice = st.selectbox("Enable Table Reservations?", ["No", "Yes"])
 
         delivery = 1 if delivery_choice == "Yes" else 0
         booking = 1 if booking_choice == "Yes" else 0
-
-        # Feature 5: Menu Complexity
-        cuisines = st.slider("Menu Variety (Number of Cuisines)", 1, 10, 2)
+        cuisines = st.slider("Menu Diversity (Cuisine Count)", 1, 10, 2)
 
     with col2:
-        st.subheader("Model Prediction Analysis")
+        st.subheader("Predictive Market Outcome")
         
-        # Prepare current simulation data
         feat = pd.DataFrame([[cost, price_range, votes, booking, delivery, cuisines]], 
                              columns=['Average_Cost_USD', 'Price range', 'Votes', 'Has Table booking', 'Has Online delivery', 'Cuisine_Count'])
 
-        # Predict current rating
         pred = model.predict(scaler.transform(feat))[0]
-        # Ensure prediction stays within valid Zomato rating bounds (0 to 5)
         pred = max(0.0, min(pred, 5.0))
 
-        # Visual Upgrade: Gauge Chart instead of plain text metric
+        # Enterprise Gauge Chart
         fig = go.Figure(go.Indicator(
-            mode = "gauge+number",
+            mode = "gauge+number+delta",
             value = pred,
             domain = {'x': [0, 1], 'y': [0, 1]},
-            title = {'text': "Predicted Customer Rating", 'font': {'size': 20}},
+            title = {'text': "Forecasted Rating", 'font': {'size': 18}},
+            delta = {'reference': 3.5, 'increasing': {'color': "green"}, 'decreasing': {'color': "red"}}, # Comparing against average 3.5
+            number = {'font': {'size': 45}},
             gauge = {
                 'axis': {'range': [0, 5], 'tickwidth': 1, 'tickcolor': "darkblue"},
-                'bar': {'color': "#1E90FF"},
+                'bar': {'color': "rgba(0,0,0,0)", 'thickness': 0},
                 'bgcolor': "white",
                 'borderwidth': 2,
                 'bordercolor': "gray",
                 'steps': [
-                    {'range': [0, 2.5], 'color': "#FF6347"},  # Red/Poor
-                    {'range': [2.5, 4.0], 'color': "#FFD700"}, # Yellow/Average
-                    {'range': [4.0, 5.0], 'color': "#32CD32"}  # Green/Excellent
+                    {'range': [0, 2.5], 'color': "#EF5350"},
+                    {'range': [2.5, 4.0], 'color': "#FFCA28"},
+                    {'range': [4.0, 5.0], 'color': "#66BB6A"}
                 ],
+                'threshold': {'line': {'color': "black", 'width': 6}, 'thickness': 0.75, 'value': pred}
             }
         ))
-        fig.update_layout(height=300, margin=dict(l=20, r=20, t=40, b=20))
+        fig.update_layout(height=250, margin=dict(l=20, r=20, t=40, b=20), paper_bgcolor="rgba(0,0,0,0)")
         st.plotly_chart(fig, use_container_width=True)
 
-        # Dynamic "What-If" Feedback Logic
-        st.markdown("### 📈 Dynamic Insights:")
+        # Advanced ROI / Market Impact
+        st.markdown("### 📊 Market Intelligence & ROI")
         
-        # Calculate Delta: What if they added delivery?
-        if delivery == 0:
-            feat_delivery = feat.copy()
-            feat_delivery['Has Online delivery'] = 1
-            pred_delivery = model.predict(scaler.transform(feat_delivery))[0]
-            delta = pred_delivery - pred
-            if delta > 0.05:
-                st.warning(f"💡 **Service Tip:** Adding Online Delivery could boost your score by **+{delta:.2f} points**.")
+        tab1, tab2 = st.tabs(["Actionable Insights", "Competitive Benchmark"])
+        
+        with tab1:
+            if delivery == 0:
+                feat_delivery = feat.copy()
+                feat_delivery['Has Online delivery'] = 1
+                pred_delivery = max(0.0, min(model.predict(scaler.transform(feat_delivery))[0], 5.0))
+                delta = pred_delivery - pred
+                if delta > 0.05:
+                    rev_impact = delta * 15 # Industry estimate: 1 point rating = ~15% digital revenue boost
+                    st.success(f"**Growth Opportunity:** Adding Online Delivery boosts predicted rating by **+{delta:.2f}**. Industry data suggests this could drive a **~{rev_impact:.1f}% increase** in digital order volume.")
             else:
-                st.write("✔️ **Service Tip:** Online Delivery is recommended, but other factors are currently holding your score back more.")
-        else:
-            st.success("✔️ **Service Tip:** You are maximizing digital engagement by offering online delivery.")
+                st.info("✔️ Digital footprint optimized. Delivery services are active.")
 
-        # Static/General Logic Tips
-        if cuisines < 3:
-            st.info("💡 **Menu Tip:** Increasing your cuisine variety may attract more diverse reviews.")
-        if votes < 200:
-            st.error("💡 **Marketing Tip:** Focus on getting your first 200 reviews to stabilize your rating. Your digital footprint is currently too low.")
+            if votes < 200:
+                st.error("⚠️ **Risk Alert:** Restaurants with under 200 votes suffer from high rating volatility. Invest in social proof marketing.")
+
+            # Export Configuration feature
+            csv_export = feat.copy()
+            csv_export['Forecasted_Rating'] = round(pred, 2)
+            csv = csv_export.to_csv(index=False).encode('utf-8')
+            st.download_button("📥 Download Strategy Report (CSV)", csv, "restaurant_strategy_forecast.csv", "text/csv")
+
+        with tab2:
+            st.write("Compare your simulated rating against the global average for your price bracket.")
+            market_avg = df[df['Price range'] == price_range]['Aggregate rating'].mean()
+            if pd.notna(market_avg):
+                diff = pred - market_avg
+                st.metric(label=f"Market Average (Price Tier {price_range})", value=f"{market_avg:.2f}", delta=f"{diff:.2f} vs Market")
+            else:
+                st.write("Insufficient market data for this specific configuration.")
 
 # =====================================================================
-# --- MODE 2: CUSTOMER (Discovery & Filtering) ---
+# --- MODE 2: CUSTOMER (Discovery Hub) ---
 # =====================================================================
 else:
-    st.title("Top Rated Restaurants Near You")
-    st.write("Filter by your location, preferences, and budget to find the best-performing restaurants.")
+    st.title("Global Discovery Hub")
+    st.write("Curate your dining experience with advanced market filtering.")
 
-    # Geo-Filtering & Preferences (Crucial UX Improvement)
-    colA, colB, colC = st.columns(3)
+    colA, colB, colC = st.columns(3, gap="medium")
     
     with colA:
         if 'City' in df.columns:
             cities = sorted(df['City'].unique().tolist())
-            selected_city = st.selectbox("📍 Select City", ["All"] + cities)
+            selected_city = st.selectbox("📍 Global Location", ["All"] + cities, index=cities.index("Chennai") + 1 if "Chennai" in cities else 0)
         else:
             selected_city = "All"
             
-    with colB:
-        # Extract unique cuisines safely
         if 'Cuisines' in df.columns:
             all_cuisines = set(c.strip() for sublist in df['Cuisines'].dropna().str.split(',') for c in sublist)
-            selected_cuisine = st.selectbox("🍝 Preferred Cuisine", ["All"] + sorted(list(all_cuisines)))
+            selected_cuisine = st.selectbox("🍝 Cuisine Focus", ["All"] + sorted(list(all_cuisines)))
         else:
             selected_cuisine = "All"
 
-    with colC:
-        max_budget = st.number_input("💰 Max Budget for Two (USD $)", min_value=5, max_value=200, value=50, step=5)
-        # Added a sorting preference
-        sort_by = st.selectbox("Sort By", ["Highest Rating", "Most Popular (Votes)", "Lowest Price"])
+    with colB:
+        max_budget = st.number_input("💰 Max Budget for Two (USD $)", min_value=5, max_value=200, value=60, step=5)
+        min_rating = st.slider("⭐ Minimum Rating Quality", 0.0, 5.0, 4.0, step=0.1)
 
-    # Apply Filters
+    with colC:
+        sort_by = st.selectbox("Sort Priority", ["Highest Quality (Rating)", "Highest Popularity (Votes)", "Best Value (Price)"])
+        st.markdown("<br>", unsafe_allow_html=True) # Spacing
+        if st.button("Clear Personal Shortlist"):
+            st.session_state.shortlist = []
+
+    # --- Apply Enterprise Filters ---
     matches = df.copy()
-    matches = matches[matches['Average_Cost_USD'] <= max_budget]
-    
+    if 'Average_Cost_USD' in matches.columns:
+        matches = matches[matches['Average_Cost_USD'] <= max_budget]
+    if 'Aggregate rating' in matches.columns:
+        matches = matches[matches['Aggregate rating'] >= min_rating]
     if selected_city != "All":
         matches = matches[matches['City'] == selected_city]
-        
     if selected_cuisine != "All":
         matches = matches[matches['Cuisines'].str.contains(selected_cuisine, case=False, na=False)]
 
-    # Apply Sorting
-    if sort_by == "Highest Rating":
+    # --- Apply Sorting ---
+    if sort_by == "Highest Quality (Rating)":
         matches = matches.sort_values(by=["Aggregate rating", "Votes"], ascending=[False, False])
-    elif sort_by == "Most Popular (Votes)":
+    elif sort_by == "Highest Popularity (Votes)":
         matches = matches.sort_values(by="Votes", ascending=False)
     else:
         matches = matches.sort_values(by="Average_Cost_USD", ascending=True)
 
-    # Format Display
     if matches.empty:
-        st.warning("No restaurants found matching your criteria. Try expanding your budget or changing the city.")
+        st.warning("No restaurants match this strict criteria. Try lowering the minimum rating or increasing the budget.")
     else:
-        st.subheader(f"Top Recommended Restaurants (Found {len(matches)} matches)")
+        # Display Market Summary Stats
+        st.markdown(f"**Market Snapshot:** {len(matches)} options found. Average Cost: ${matches['Average_Cost_USD'].mean():.2f}")
         
-        # Displaying the top 15 results beautifully using st.dataframe configuration
         matches['Price (USD)'] = matches['Average_Cost_USD'].apply(lambda x: f"${x:.2f}")
+        if 'Has Online delivery' in matches.columns:
+            matches['Delivery'] = matches['Has Online delivery'].map({1: 'Yes', 0: 'No', 'Yes': 'Yes', 'No':'No'})
         
-        display_cols = ['Restaurant Name', 'City', 'Locality', 'Cuisines', 'Aggregate rating', 'Price (USD)', 'Votes']
-        
-        # Ensure only columns that actually exist in the dataframe are displayed
+        display_cols = ['Restaurant Name', 'City', 'Locality', 'Cuisines', 'Aggregate rating', 'Price (USD)', 'Votes', 'Delivery']
         display_cols = [col for col in display_cols if col in matches.columns]
         
-        st.dataframe(
-            matches[display_cols].head(15), 
+        # Make a copy for the Data Editor to allow Shortlisting
+        interactive_df = matches[display_cols].copy()
+        interactive_df.insert(0, "Shortlist", False) # Add checkbox column
+
+        st.subheader("Market Results")
+        # st.data_editor allows users to click checkboxes!
+        edited_df = st.data_editor(
+            interactive_df,
+            hide_index=True,
             use_container_width=True,
-            hide_index=True # Hides the arbitrary pandas index numbers for a cleaner look
+            height=350,
+            disabled=display_cols # Lock all columns EXCEPT the Shortlist checkbox
         )
-        
-        st.success("Results updated based on global data trends and your personal filters.")
+
+        # Track favorites
+        new_favorites = edited_df[edited_df["Shortlist"] == True]["Restaurant Name"].tolist()
+        if new_favorites:
+            for fav in new_favorites:
+                if fav not in st.session_state.shortlist:
+                    st.session_state.shortlist.append(fav)
+
+        # Show Shortlist Drawer
+        if st.session_state.shortlist:
+            with st.expander("⭐ Your Personalized Dining Shortlist", expanded=True):
+                for item in set(st.session_state.shortlist):
+                    st.markdown(f"- **{item}**")
